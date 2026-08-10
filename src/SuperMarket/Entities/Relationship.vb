@@ -1,7 +1,7 @@
 Option Strict On
 Option Explicit On
 
-Namespace Entities
+Namespace SuperMarket.Entities
 
     ''' <summary>
     ''' 关系：蝴蝶效应网络中的有向加权边。

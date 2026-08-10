@@ -1,7 +1,7 @@
 Option Strict On
 Option Explicit On
 
-Namespace Entities
+Namespace SuperMarket.Entities
 
     ''' <summary>
     ''' 国家实体：宏观经济属性、关税表、产业链列表、与他国关系。

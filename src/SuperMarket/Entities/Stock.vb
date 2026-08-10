@@ -1,7 +1,7 @@
 Option Strict On
 Option Explicit On
 
-Namespace Entities
+Namespace SuperMarket.Entities
 
     ''' <summary>
     ''' 股票：量价数据载体，由多因子定价引擎驱动。

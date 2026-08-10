@@ -1,7 +1,7 @@
 Option Strict On
 Option Explicit On
 
-Namespace Entities
+Namespace SuperMarket.Entities
 
     ''' <summary>
     ''' 投资者：在市场中交易股票，行为模式受类型与情绪驱动。

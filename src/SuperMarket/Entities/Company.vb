@@ -1,7 +1,7 @@
 Option Strict On
 Option Explicit On
 
-Namespace Entities
+Namespace SuperMarket.Entities
 
     ''' <summary>
     ''' 上市公司实体：经营、财务、股权结构、研发能力。
