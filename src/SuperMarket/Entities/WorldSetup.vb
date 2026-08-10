@@ -196,9 +196,11 @@ Namespace SuperMarket.Entities
                         .UtilizationRate = _rng.NextDouble(0.5, 0.9),
                         .Inventory = _rng.NextDouble(50, 500),
                         .ProductPrice = _rng.NextDouble(50, 200),
+                        .BasePrice = 100.0,
                         .Demand = _rng.NextDouble(50, 200),
                         .Supply = _rng.NextDouble(50, 200)
                     }
+                    chain.BasePrice = chain.ProductPrice
                     chains.Add(chain)
                     c.IndustryChainIds.Add(chainId)
                     byCategory(tpl.Category).Add(chainId)

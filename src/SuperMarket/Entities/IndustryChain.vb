@@ -26,6 +26,9 @@ Namespace SuperMarket.Entities
         ''' <summary>本环节产品当前价格。</summary>
         Public Property ProductPrice As Double = 100.0
 
+        ''' <summary>基准价格（模拟初值，用于计算价格变化率）。</summary>
+        Public Property BasePrice As Double = 100.0
+
         ''' <summary>市场需求指数。</summary>
         Public Property Demand As Double = 100.0
 

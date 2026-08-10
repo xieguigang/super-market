@@ -1,0 +1,8391 @@
+﻿[
+  {
+    "eventId": 0,
+    "timestamp": "2020-01-02",
+    "eventType": "TariffChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 1,
+    "description": "关税政策调整",
+    "initialImpact": 0.0736,
+    "affectedEntities": [
+      {
+        "companyId": 4,
+        "impact": 0.0368
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0368
+      },
+      {
+        "companyId": 13,
+        "impact": 0.0368
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0133
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0133
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0133
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0133
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0133
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0133
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0073
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0073
+      },
+      {
+        "companyId": 5,
+        "impact": 0.006
+      },
+      {
+        "companyId": 7,
+        "impact": 0.006
+      },
+      {
+        "companyId": 8,
+        "impact": 0.006
+      },
+      {
+        "companyId": 11,
+        "impact": 0.006
+      },
+      {
+        "companyId": 19,
+        "impact": 0.006
+      },
+      {
+        "companyId": 0,
+        "impact": 0.0063
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0063
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0063
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0063
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": 0.0736
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0265
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0146
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0119
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0119
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0126
+      }
+    ]
+  },
+  {
+    "eventId": 1,
+    "timestamp": "2020-01-02",
+    "eventType": "InterestRateChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "央行调整基准利率",
+    "initialImpact": -0.3399,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.1699
+      },
+      {
+        "companyId": 2,
+        "impact": -0.1699
+      },
+      {
+        "companyId": 3,
+        "impact": -0.1699
+      },
+      {
+        "companyId": 15,
+        "impact": -0.1699
+      },
+      {
+        "companyId": 17,
+        "impact": -0.1699
+      },
+      {
+        "companyId": 18,
+        "impact": -0.1699
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0398
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0398
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0398
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0805
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0805
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0805
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0805
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0408
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0408
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0408
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0408
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0408
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0079
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0079
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.3399
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0795
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.1611
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0816
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0286
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0157
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0129
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0129
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.029
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0783
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0358
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0938
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0431
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0117
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0166
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0484
+      }
+    ]
+  },
+  {
+    "eventId": 2,
+    "timestamp": "2020-01-06",
+    "eventType": "WarFriction",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 1,
+    "description": "国家间战争摩擦升级（China vs Japan）",
+    "initialImpact": -0.551,
+    "affectedEntities": [
+      {
+        "companyId": 4,
+        "impact": -0.2755
+      },
+      {
+        "companyId": 6,
+        "impact": -0.2755
+      },
+      {
+        "companyId": 13,
+        "impact": -0.2755
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0992
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0992
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0992
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0992
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0992
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0992
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0545
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0545
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0446
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0446
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0446
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0446
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0446
+      },
+      {
+        "companyId": 0,
+        "impact": -0.047
+      },
+      {
+        "companyId": 9,
+        "impact": -0.047
+      },
+      {
+        "companyId": 10,
+        "impact": -0.047
+      },
+      {
+        "companyId": 12,
+        "impact": -0.047
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.551
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.1984
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1091
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0893
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0893
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0464
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.094
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0476
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.034
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0183
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0576
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0484
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0471
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0129
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0182
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.053
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0169
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0457
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0209
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0547
+      }
+    ]
+  },
+  {
+    "eventId": 3,
+    "timestamp": "2020-01-06",
+    "eventType": "EarningsSurprise",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 2,
+    "description": "财报超预期",
+    "initialImpact": 0.1697,
+    "affectedEntities": [
+      {
+        "companyId": 2,
+        "impact": 0.2857
+      },
+      {
+        "companyId": 1,
+        "impact": 0.116
+      },
+      {
+        "companyId": 3,
+        "impact": 0.116
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0509
+      },
+      {
+        "companyId": 17,
+        "impact": 0.116
+      },
+      {
+        "companyId": 18,
+        "impact": 0.1578
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": 0.1697
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.1018
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 0,
+        "impact": 0.0814
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.0417
+      },
+      {
+        "entityType": "Company",
+        "entityId": 1,
+        "impact": 0.0651
+      },
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": 0.0651
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": 0.0651
+      },
+      {
+        "entityType": "Company",
+        "entityId": 17,
+        "impact": 0.0651
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.0651
+      }
+    ]
+  },
+  {
+    "eventId": 4,
+    "timestamp": "2020-01-08",
+    "eventType": "InvestorChase",
+    "sourceEntityType": "Investor",
+    "sourceEntityId": 9,
+    "description": "投资者追高买入",
+    "initialImpact": 0.1947,
+    "affectedEntities": [
+      {
+        "companyId": 19,
+        "impact": 0.014
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0269
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0444
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0386
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0561
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Investor",
+        "entityId": 9,
+        "impact": 0.1947
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": 0.014
+      },
+      {
+        "entityType": "Company",
+        "entityId": 12,
+        "impact": 0.0269
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": 0.0444
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.0386
+      },
+      {
+        "entityType": "Company",
+        "entityId": 11,
+        "impact": 0.0561
+      }
+    ]
+  },
+  {
+    "eventId": 5,
+    "timestamp": "2020-01-08",
+    "eventType": "SupplyChainDisruption",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 16,
+    "description": "供应链中断",
+    "initialImpact": -0.3432,
+    "affectedEntities": [
+      {
+        "companyId": 5,
+        "impact": -0.2745
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 16,
+        "impact": -0.3432
+      },
+      {
+        "entityType": "Company",
+        "entityId": 5,
+        "impact": -0.2745
+      }
+    ]
+  },
+  {
+    "eventId": 6,
+    "timestamp": "2020-01-10",
+    "eventType": "EarningsSurprise",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 19,
+    "description": "财报超预期",
+    "initialImpact": 0.1047,
+    "affectedEntities": [
+      {
+        "companyId": 19,
+        "impact": 0.1762
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0314
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0716
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0716
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0314
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": 0.1047
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0628
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 17,
+        "impact": 0.0502
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": 0.0402
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": 0.0402
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": 0.0402
+      }
+    ]
+  },
+  {
+    "eventId": 7,
+    "timestamp": "2020-01-10",
+    "eventType": "SupplyChainDisruption",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 2,
+    "description": "供应链中断",
+    "initialImpact": -0.3968,
+    "affectedEntities": [
+      {
+        "companyId": 6,
+        "impact": -0.3174
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 2,
+        "impact": -0.3968
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": -0.3174
+      }
+    ]
+  },
+  {
+    "eventId": 8,
+    "timestamp": "2020-01-13",
+    "eventType": "PolicyChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 4,
+    "description": "市场监管政策变化",
+    "initialImpact": 0.3222,
+    "affectedEntities": [
+      {
+        "companyId": 5,
+        "impact": 0.1611
+      },
+      {
+        "companyId": 7,
+        "impact": 0.1611
+      },
+      {
+        "companyId": 8,
+        "impact": 0.1611
+      },
+      {
+        "companyId": 11,
+        "impact": 0.1611
+      },
+      {
+        "companyId": 19,
+        "impact": 0.1611
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0851
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0851
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0851
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0851
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0851
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0851
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0232
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0232
+      },
+      {
+        "companyId": 0,
+        "impact": 0.0329
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0329
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0329
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0329
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0199
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0199
+      },
+      {
+        "companyId": 13,
+        "impact": 0.0199
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.3222
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.1701
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0464
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0657
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.1914
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": 0.0398
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0806
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0408
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0145
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0245
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0206
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0118
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0319
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0146
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0383
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0143
+      }
+    ]
+  },
+  {
+    "eventId": 9,
+    "timestamp": "2020-01-14",
+    "eventType": "SectorRotation",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "板块轮动",
+    "initialImpact": -0.0384,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.0192
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0192
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0192
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0192
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0192
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0192
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0091
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0091
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0091
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0091
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0053
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0053
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0384
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0182
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0106
+      }
+    ]
+  },
+  {
+    "eventId": 10,
+    "timestamp": "2020-01-14",
+    "eventType": "InterestRateChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "央行调整基准利率",
+    "initialImpact": -0.2192,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.1096
+      },
+      {
+        "companyId": 2,
+        "impact": -0.1096
+      },
+      {
+        "companyId": 3,
+        "impact": -0.1096
+      },
+      {
+        "companyId": 15,
+        "impact": -0.1096
+      },
+      {
+        "companyId": 17,
+        "impact": -0.1096
+      },
+      {
+        "companyId": 18,
+        "impact": -0.1096
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0256
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0256
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0256
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0519
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0519
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0519
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0519
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0263
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0263
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0263
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0263
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0263
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0051
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0051
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.2192
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0513
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.1039
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0526
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0185
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0102
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0187
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0505
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0231
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0605
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0278
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0107
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0312
+      }
+    ]
+  },
+  {
+    "eventId": 11,
+    "timestamp": "2020-01-16",
+    "eventType": "PolicyChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "市场监管政策变化",
+    "initialImpact": -0.1006,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.0503
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0503
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0503
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0503
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0503
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0503
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0118
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0118
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0118
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0239
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0239
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0239
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0239
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0121
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0121
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0121
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0121
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0121
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0116
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0116
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.1006
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0236
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0477
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0242
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0232
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0106
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0278
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0128
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0143
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0122
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0103
+      }
+    ]
+  },
+  {
+    "eventId": 12,
+    "timestamp": "2020-01-16",
+    "eventType": "WarFriction",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "国家间战争摩擦升级（Germany vs United States）",
+    "initialImpact": -0.2596,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": -0.1298
+      },
+      {
+        "companyId": 9,
+        "impact": -0.1298
+      },
+      {
+        "companyId": 10,
+        "impact": -0.1298
+      },
+      {
+        "companyId": 12,
+        "impact": -0.1298
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0234
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0234
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0234
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0234
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0234
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0234
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0631
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0631
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0055
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0055
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0055
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0056
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0056
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0056
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0056
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0056
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.2596
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0467
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1262
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0576
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1511
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0109
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0222
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0112
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0394
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0212
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0666
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.056
+      }
+    ]
+  },
+  {
+    "eventId": 13,
+    "timestamp": "2020-01-16",
+    "eventType": "Pandemic",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "黑天鹅事件/流行病",
+    "initialImpact": -0.6919,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.346
+      },
+      {
+        "companyId": 2,
+        "impact": -0.346
+      },
+      {
+        "companyId": 3,
+        "impact": -0.346
+      },
+      {
+        "companyId": 15,
+        "impact": -0.346
+      },
+      {
+        "companyId": 17,
+        "impact": -0.346
+      },
+      {
+        "companyId": 18,
+        "impact": -0.346
+      },
+      {
+        "companyId": 4,
+        "impact": -0.081
+      },
+      {
+        "companyId": 6,
+        "impact": -0.081
+      },
+      {
+        "companyId": 13,
+        "impact": -0.081
+      },
+      {
+        "companyId": 0,
+        "impact": -0.164
+      },
+      {
+        "companyId": 9,
+        "impact": -0.164
+      },
+      {
+        "companyId": 10,
+        "impact": -0.164
+      },
+      {
+        "companyId": 12,
+        "impact": -0.164
+      },
+      {
+        "companyId": 5,
+        "impact": -0.083
+      },
+      {
+        "companyId": 7,
+        "impact": -0.083
+      },
+      {
+        "companyId": 8,
+        "impact": -0.083
+      },
+      {
+        "companyId": 11,
+        "impact": -0.083
+      },
+      {
+        "companyId": 19,
+        "impact": -0.083
+      },
+      {
+        "companyId": 14,
+        "impact": -0.016
+      },
+      {
+        "companyId": 16,
+        "impact": -0.016
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.6919
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.1619
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.328
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.1661
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0583
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0321
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0262
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0262
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.059
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1594
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0728
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1909
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0877
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0239
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0339
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0986
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.01
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0169
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0142
+      }
+    ]
+  },
+  {
+    "eventId": 14,
+    "timestamp": "2020-01-20",
+    "eventType": "SupplyChainDisruption",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 2,
+    "description": "供应链中断",
+    "initialImpact": -0.2747,
+    "affectedEntities": [
+      {
+        "companyId": 6,
+        "impact": -0.2198
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 2,
+        "impact": -0.2747
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": -0.2198
+      }
+    ]
+  },
+  {
+    "eventId": 15,
+    "timestamp": "2020-01-20",
+    "eventType": "SectorRotation",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "板块轮动",
+    "initialImpact": 0.0187,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": 0.0094
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0094
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0094
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0094
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0094
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0094
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0187
+      }
+    ]
+  },
+  {
+    "eventId": 16,
+    "timestamp": "2020-01-20",
+    "eventType": "WhaleShort",
+    "sourceEntityType": "Investor",
+    "sourceEntityId": 0,
+    "description": "巨头做空打压",
+    "initialImpact": -0.1129,
+    "affectedEntities": [
+      {
+        "companyId": 3,
+        "impact": -0.0456
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0465
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0497
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0399
+      },
+      {
+        "companyId": 4,
+        "impact": -0.022
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0279
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0399
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0409
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0264
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0505
+      },
+      {
+        "companyId": 10,
+        "impact": -0.067
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0409
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0585
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0844
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0348
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0628
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0465
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0646
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0521
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0202
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Investor",
+        "entityId": 0,
+        "impact": -0.1129
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": -0.0271
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": -0.0122
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": -0.0312
+      },
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": -0.0237
+      },
+      {
+        "entityType": "Company",
+        "entityId": 4,
+        "impact": -0.0169
+      },
+      {
+        "entityType": "Company",
+        "entityId": 11,
+        "impact": -0.0129
+      },
+      {
+        "entityType": "Company",
+        "entityId": 0,
+        "impact": -0.0237
+      },
+      {
+        "entityType": "Company",
+        "entityId": 17,
+        "impact": -0.0223
+      },
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": -0.0102
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": -0.0163
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": -0.0508
+      },
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": -0.0237
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": -0.0386
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": -0.0501
+      },
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": -0.0163
+      },
+      {
+        "entityType": "Company",
+        "entityId": 5,
+        "impact": -0.0345
+      },
+      {
+        "entityType": "Company",
+        "entityId": 12,
+        "impact": -0.0284
+      },
+      {
+        "entityType": "Company",
+        "entityId": 1,
+        "impact": -0.046
+      },
+      {
+        "entityType": "Company",
+        "entityId": 14,
+        "impact": -0.0325
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0163
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 0,
+        "impact": -0.013
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0187
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 0,
+        "impact": -0.015
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0142
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 11,
+        "impact": -0.0114
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0102
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0142
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 12,
+        "impact": -0.0114
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0134
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 0,
+        "impact": -0.0107
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0305
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 12,
+        "impact": -0.0244
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0142
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 1,
+        "impact": -0.0114
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0232
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 2,
+        "impact": -0.0185
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": -0.0148
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": -0.0183
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": -0.0164
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0301
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 17,
+        "impact": -0.0241
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0207
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 16,
+        "impact": -0.0166
+      },
+      {
+        "entityType": "Company",
+        "entityId": 13,
+        "impact": -0.0151
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0171
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 13,
+        "impact": -0.0137
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0276
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 0,
+        "impact": -0.0221
+      },
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": -0.0199
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": -0.0144
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0195
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 7,
+        "impact": -0.0156
+      },
+      {
+        "entityType": "Company",
+        "entityId": 1,
+        "impact": -0.0104
+      },
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": -0.0104
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": -0.0104
+      },
+      {
+        "entityType": "Company",
+        "entityId": 17,
+        "impact": -0.0104
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": -0.0104
+      },
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": -0.0091
+      },
+      {
+        "entityType": "Company",
+        "entityId": 0,
+        "impact": -0.0091
+      },
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": -0.0091
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": -0.0091
+      },
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": -0.0091
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": -0.0148
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": -0.0192
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": -0.0192
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": -0.0192
+      },
+      {
+        "entityType": "Company",
+        "entityId": 5,
+        "impact": -0.0133
+      },
+      {
+        "entityType": "Company",
+        "entityId": 12,
+        "impact": -0.0109
+      },
+      {
+        "entityType": "Company",
+        "entityId": 14,
+        "impact": -0.0125
+      }
+    ]
+  },
+  {
+    "eventId": 17,
+    "timestamp": "2020-01-21",
+    "eventType": "PledgeUnlock",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 15,
+    "description": "限售股解禁",
+    "initialImpact": -0.1125,
+    "affectedEntities": [
+      {
+        "companyId": 15,
+        "impact": -0.1894
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0337
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0337
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0337
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0337
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0337
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": -0.1125
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0675
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 1,
+        "impact": -0.054
+      },
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": -0.0432
+      }
+    ]
+  },
+  {
+    "eventId": 18,
+    "timestamp": "2020-01-21",
+    "eventType": "RDBreakthrough",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 7,
+    "description": "研发突破，新产品上市",
+    "initialImpact": 0.3389,
+    "affectedEntities": [
+      {
+        "companyId": 7,
+        "impact": 0.5706
+      },
+      {
+        "companyId": 5,
+        "impact": 0.1017
+      },
+      {
+        "companyId": 8,
+        "impact": 0.3192
+      },
+      {
+        "companyId": 11,
+        "impact": 0.1017
+      },
+      {
+        "companyId": 19,
+        "impact": 0.2318
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0537
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0537
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0537
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0537
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0537
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0537
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0146
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0146
+      },
+      {
+        "companyId": 0,
+        "impact": 0.0207
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0207
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0207
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0207
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": 0.3389
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.2033
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 17,
+        "impact": 0.1627
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": 0.0874
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.1074
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0293
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0415
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.1208
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": 0.1301
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": 0.1301
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": 0.1301
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0525
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 17,
+        "impact": 0.042
+      }
+    ]
+  },
+  {
+    "eventId": 19,
+    "timestamp": "2020-01-21",
+    "eventType": "Pandemic",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "黑天鹅事件/流行病",
+    "initialImpact": -0.6743,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.3372
+      },
+      {
+        "companyId": 2,
+        "impact": -0.3372
+      },
+      {
+        "companyId": 3,
+        "impact": -0.3372
+      },
+      {
+        "companyId": 15,
+        "impact": -0.3372
+      },
+      {
+        "companyId": 17,
+        "impact": -0.3372
+      },
+      {
+        "companyId": 18,
+        "impact": -0.3372
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0789
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0789
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0789
+      },
+      {
+        "companyId": 0,
+        "impact": -0.1598
+      },
+      {
+        "companyId": 9,
+        "impact": -0.1598
+      },
+      {
+        "companyId": 10,
+        "impact": -0.1598
+      },
+      {
+        "companyId": 12,
+        "impact": -0.1598
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0809
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0809
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0809
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0809
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0809
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0156
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0156
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.6743
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.1578
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.3196
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.1618
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0568
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0312
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0256
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0256
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0575
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1553
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.071
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.186
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0855
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0233
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.033
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0961
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0165
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0139
+      }
+    ]
+  },
+  {
+    "eventId": 20,
+    "timestamp": "2020-01-22",
+    "eventType": "InvestorChase",
+    "sourceEntityType": "Investor",
+    "sourceEntityId": 1,
+    "description": "投资者追高买入",
+    "initialImpact": 0.1989,
+    "affectedEntities": [
+      {
+        "companyId": 10,
+        "impact": 0.0895
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0263
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0191
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0239
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0657
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0704
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0561
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0573
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Investor",
+        "entityId": 1,
+        "impact": 0.1989
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": 0.0895
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": 0.0263
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": 0.0191
+      },
+      {
+        "entityType": "Company",
+        "entityId": 4,
+        "impact": 0.0239
+      },
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": 0.0657
+      },
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": 0.0704
+      },
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": 0.0561
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.0573
+      }
+    ]
+  },
+  {
+    "eventId": 21,
+    "timestamp": "2020-01-23",
+    "eventType": "SectorRotation",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "板块轮动",
+    "initialImpact": 0.0262,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": 0.0131
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0131
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0131
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0131
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0131
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0131
+      },
+      {
+        "companyId": 0,
+        "impact": 0.0062
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0062
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0062
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0062
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0262
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0124
+      }
+    ]
+  },
+  {
+    "eventId": 22,
+    "timestamp": "2020-01-23",
+    "eventType": "InterestRateChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 1,
+    "description": "央行调整基准利率",
+    "initialImpact": 0.0111,
+    "affectedEntities": [
+      {
+        "companyId": 4,
+        "impact": 0.0055
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0055
+      },
+      {
+        "companyId": 13,
+        "impact": 0.0055
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": 0.0111
+      }
+    ]
+  },
+  {
+    "eventId": 23,
+    "timestamp": "2020-01-23",
+    "eventType": "TariffChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 1,
+    "description": "关税政策调整",
+    "initialImpact": -0.341,
+    "affectedEntities": [
+      {
+        "companyId": 4,
+        "impact": -0.1705
+      },
+      {
+        "companyId": 6,
+        "impact": -0.1705
+      },
+      {
+        "companyId": 13,
+        "impact": -0.1705
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0614
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0614
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0614
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0614
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0614
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0614
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0338
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0338
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0276
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0276
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0276
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0276
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0276
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0291
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0291
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0291
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0291
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.341
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.1228
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0675
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0552
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0552
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0287
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0582
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0295
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0211
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0113
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0357
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.03
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0292
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0113
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0328
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0105
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0283
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0129
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0339
+      }
+    ]
+  },
+  {
+    "eventId": 24,
+    "timestamp": "2020-01-24",
+    "eventType": "EarningsSurprise",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 3,
+    "description": "财报超预期",
+    "initialImpact": 0.0095,
+    "affectedEntities": [
+      {
+        "companyId": 3,
+        "impact": 0.0095
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": 0.0095
+      }
+    ]
+  },
+  {
+    "eventId": 25,
+    "timestamp": "2020-01-27",
+    "eventType": "InvestorChase",
+    "sourceEntityType": "Investor",
+    "sourceEntityId": 1,
+    "description": "投资者追高买入",
+    "initialImpact": 0.1546,
+    "affectedEntities": [
+      {
+        "companyId": 10,
+        "impact": 0.0696
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0204
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0148
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0185
+      },
+      {
+        "companyId": 15,
+        "impact": 0.051
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0547
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0436
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0445
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Investor",
+        "entityId": 1,
+        "impact": 0.1546
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": 0.0696
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": 0.0204
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": 0.0148
+      },
+      {
+        "entityType": "Company",
+        "entityId": 4,
+        "impact": 0.0185
+      },
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": 0.051
+      },
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": 0.0547
+      },
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": 0.0436
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.0445
+      }
+    ]
+  },
+  {
+    "eventId": 26,
+    "timestamp": "2020-01-27",
+    "eventType": "EarningsSurprise",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 3,
+    "description": "财报超预期",
+    "initialImpact": 0.0106,
+    "affectedEntities": [
+      {
+        "companyId": 3,
+        "impact": 0.0106
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": 0.0106
+      }
+    ]
+  },
+  {
+    "eventId": 27,
+    "timestamp": "2020-01-27",
+    "eventType": "EarningsSurprise",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 10,
+    "description": "财报超预期",
+    "initialImpact": -0.0587,
+    "affectedEntities": [
+      {
+        "companyId": 10,
+        "impact": -0.0989
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0402
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0402
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0176
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": -0.0587
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0352
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 12,
+        "impact": -0.0282
+      },
+      {
+        "entityType": "Company",
+        "entityId": 0,
+        "impact": -0.0226
+      },
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": -0.0226
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": -0.0226
+      }
+    ]
+  },
+  {
+    "eventId": 28,
+    "timestamp": "2020-01-27",
+    "eventType": "TariffChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 1,
+    "description": "关税政策调整",
+    "initialImpact": -0.6068,
+    "affectedEntities": [
+      {
+        "companyId": 4,
+        "impact": -0.3034
+      },
+      {
+        "companyId": 6,
+        "impact": -0.3034
+      },
+      {
+        "companyId": 13,
+        "impact": -0.3034
+      },
+      {
+        "companyId": 1,
+        "impact": -0.1092
+      },
+      {
+        "companyId": 2,
+        "impact": -0.1092
+      },
+      {
+        "companyId": 3,
+        "impact": -0.1092
+      },
+      {
+        "companyId": 15,
+        "impact": -0.1092
+      },
+      {
+        "companyId": 17,
+        "impact": -0.1092
+      },
+      {
+        "companyId": 18,
+        "impact": -0.1092
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0601
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0601
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0491
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0491
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0491
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0491
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0491
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0518
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0518
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0518
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0518
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.6068
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.2184
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1201
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0983
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0983
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0511
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.1035
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0524
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0375
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0202
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0634
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0533
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0519
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0142
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0201
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0584
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0186
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0503
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.023
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0603
+      }
+    ]
+  },
+  {
+    "eventId": 29,
+    "timestamp": "2020-01-27",
+    "eventType": "InvestorChase",
+    "sourceEntityType": "Investor",
+    "sourceEntityId": 10,
+    "description": "投资者追高买入",
+    "initialImpact": 0.1073,
+    "affectedEntities": [
+      {
+        "companyId": 13,
+        "impact": 0.0206
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0167
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0457
+      },
+      {
+        "companyId": 19,
+        "impact": 0.027
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0155
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0399
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0212
+      },
+      {
+        "companyId": 0,
+        "impact": 0.0155
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0309
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0399
+      },
+      {
+        "companyId": 7,
+        "impact": 0.02
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0303
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0212
+      },
+      {
+        "companyId": 12,
+        "impact": 0.027
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Investor",
+        "entityId": 10,
+        "impact": 0.1073
+      },
+      {
+        "entityType": "Company",
+        "entityId": 13,
+        "impact": 0.0206
+      },
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": 0.0167
+      },
+      {
+        "entityType": "Company",
+        "entityId": 4,
+        "impact": 0.0457
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": 0.027
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.0155
+      },
+      {
+        "entityType": "Company",
+        "entityId": 11,
+        "impact": 0.0399
+      },
+      {
+        "entityType": "Company",
+        "entityId": 17,
+        "impact": 0.0212
+      },
+      {
+        "entityType": "Company",
+        "entityId": 0,
+        "impact": 0.0155
+      },
+      {
+        "entityType": "Company",
+        "entityId": 1,
+        "impact": 0.0309
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": 0.0399
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": 0.02
+      },
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": 0.0303
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": 0.0212
+      },
+      {
+        "entityType": "Company",
+        "entityId": 12,
+        "impact": 0.027
+      }
+    ]
+  },
+  {
+    "eventId": 30,
+    "timestamp": "2020-01-28",
+    "eventType": "TariffChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 2,
+    "description": "关税政策调整",
+    "initialImpact": 0.051,
+    "affectedEntities": [
+      {
+        "companyId": 14,
+        "impact": 0.0255
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0255
+      },
+      {
+        "companyId": 1,
+        "impact": 0.008
+      },
+      {
+        "companyId": 2,
+        "impact": 0.008
+      },
+      {
+        "companyId": 3,
+        "impact": 0.008
+      },
+      {
+        "companyId": 15,
+        "impact": 0.008
+      },
+      {
+        "companyId": 17,
+        "impact": 0.008
+      },
+      {
+        "companyId": 18,
+        "impact": 0.008
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0135
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0135
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0135
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0135
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0135
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.051
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0159
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.027
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0227
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0142
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.016
+      }
+    ]
+  },
+  {
+    "eventId": 31,
+    "timestamp": "2020-01-28",
+    "eventType": "RDBreakthrough",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 16,
+    "description": "研发突破，新产品上市",
+    "initialImpact": 0.2817,
+    "affectedEntities": [
+      {
+        "companyId": 16,
+        "impact": 0.4744
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0845
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0264
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0264
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0264
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0264
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0264
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0264
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0142
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0142
+      },
+      {
+        "companyId": 13,
+        "impact": 0.0142
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0446
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0446
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0446
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0446
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0446
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": 0.2817
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.169
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 11,
+        "impact": 0.1352
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0527
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": 0.0284
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0892
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.075
+      },
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": 0.1082
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 8,
+        "impact": 0.0555
+      }
+    ]
+  },
+  {
+    "eventId": 32,
+    "timestamp": "2020-01-28",
+    "eventType": "InvestorChase",
+    "sourceEntityType": "Investor",
+    "sourceEntityId": 9,
+    "description": "投资者追高买入",
+    "initialImpact": 0.0515,
+    "affectedEntities": [
+      {
+        "companyId": 8,
+        "impact": 0.0117
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0102
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0148
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Investor",
+        "entityId": 9,
+        "impact": 0.0515
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": 0.0117
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.0102
+      },
+      {
+        "entityType": "Company",
+        "entityId": 11,
+        "impact": 0.0148
+      }
+    ]
+  },
+  {
+    "eventId": 33,
+    "timestamp": "2020-01-28",
+    "eventType": "PolicyChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "市场监管政策变化",
+    "initialImpact": 0.3245,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": 0.1623
+      },
+      {
+        "companyId": 2,
+        "impact": 0.1623
+      },
+      {
+        "companyId": 3,
+        "impact": 0.1623
+      },
+      {
+        "companyId": 15,
+        "impact": 0.1623
+      },
+      {
+        "companyId": 17,
+        "impact": 0.1623
+      },
+      {
+        "companyId": 18,
+        "impact": 0.1623
+      },
+      {
+        "companyId": 4,
+        "impact": 0.038
+      },
+      {
+        "companyId": 6,
+        "impact": 0.038
+      },
+      {
+        "companyId": 13,
+        "impact": 0.038
+      },
+      {
+        "companyId": 0,
+        "impact": 0.0769
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0769
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0769
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0769
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0389
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0389
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0389
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0389
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0389
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0075
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0075
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.3245
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": 0.0759
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.1538
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0779
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0273
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.015
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0123
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0123
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0277
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0748
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0341
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0895
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0411
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0112
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0159
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0463
+      }
+    ]
+  },
+  {
+    "eventId": 34,
+    "timestamp": "2020-01-28",
+    "eventType": "InvestorChase",
+    "sourceEntityType": "Investor",
+    "sourceEntityId": 1,
+    "description": "投资者追高买入",
+    "initialImpact": 0.1578,
+    "affectedEntities": [
+      {
+        "companyId": 10,
+        "impact": 0.071
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0208
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0151
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0189
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0521
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0559
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0445
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0454
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Investor",
+        "entityId": 1,
+        "impact": 0.1578
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": 0.071
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": 0.0208
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": 0.0151
+      },
+      {
+        "entityType": "Company",
+        "entityId": 4,
+        "impact": 0.0189
+      },
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": 0.0521
+      },
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": 0.0559
+      },
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": 0.0445
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.0454
+      }
+    ]
+  },
+  {
+    "eventId": 35,
+    "timestamp": "2020-01-29",
+    "eventType": "InsiderTrading",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 16,
+    "description": "高管增减持",
+    "initialImpact": 0.0053,
+    "affectedEntities": [
+      {
+        "companyId": 16,
+        "impact": 0.0053
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": 0.0053
+      }
+    ]
+  },
+  {
+    "eventId": 36,
+    "timestamp": "2020-01-30",
+    "eventType": "SectorRotation",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "板块轮动",
+    "initialImpact": -0.0657,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.0328
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0328
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0328
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0328
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0328
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0328
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0077
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0077
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0077
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0156
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0156
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0156
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0156
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0079
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0079
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0079
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0079
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0079
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0076
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0076
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0657
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0154
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0311
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0158
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0151
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0181
+      }
+    ]
+  },
+  {
+    "eventId": 37,
+    "timestamp": "2020-01-30",
+    "eventType": "CurrencyDevaluation",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "货币大幅贬值",
+    "initialImpact": -0.1003,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.0501
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0501
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0501
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0501
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0501
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0501
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0117
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0117
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0117
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0238
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0238
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0238
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0238
+      },
+      {
+        "companyId": 5,
+        "impact": -0.012
+      },
+      {
+        "companyId": 7,
+        "impact": -0.012
+      },
+      {
+        "companyId": 8,
+        "impact": -0.012
+      },
+      {
+        "companyId": 11,
+        "impact": -0.012
+      },
+      {
+        "companyId": 19,
+        "impact": -0.012
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0116
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0116
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.1003
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0235
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0475
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0241
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0231
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0106
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0277
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0127
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0143
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0122
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0103
+      }
+    ]
+  },
+  {
+    "eventId": 38,
+    "timestamp": "2020-01-30",
+    "eventType": "EarningsSurprise",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 19,
+    "description": "财报超预期",
+    "initialImpact": 0.0541,
+    "affectedEntities": [
+      {
+        "companyId": 19,
+        "impact": 0.0912
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0162
+      },
+      {
+        "companyId": 7,
+        "impact": 0.037
+      },
+      {
+        "companyId": 8,
+        "impact": 0.037
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0162
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": 0.0541
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0325
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 17,
+        "impact": 0.026
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": 0.0208
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": 0.0208
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": 0.0208
+      }
+    ]
+  },
+  {
+    "eventId": 39,
+    "timestamp": "2020-01-31",
+    "eventType": "PledgeUnlock",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 6,
+    "description": "限售股解禁",
+    "initialImpact": -0.1143,
+    "affectedEntities": [
+      {
+        "companyId": 6,
+        "impact": -0.1924
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0343
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0343
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0439
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0542
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0487
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": -0.1143
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0686
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 2,
+        "impact": -0.0549
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": -0.0439
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": -0.0542
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": -0.0487
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": -0.0439
+      }
+    ]
+  },
+  {
+    "eventId": 40,
+    "timestamp": "2020-02-03",
+    "eventType": "InsiderTrading",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 8,
+    "description": "高管增减持",
+    "initialImpact": -0.0673,
+    "affectedEntities": [
+      {
+        "companyId": 8,
+        "impact": -0.1133
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0202
+      },
+      {
+        "companyId": 7,
+        "impact": -0.046
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0202
+      },
+      {
+        "companyId": 19,
+        "impact": -0.046
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": -0.0673
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0404
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 17,
+        "impact": -0.0323
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": -0.0258
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": -0.0258
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": -0.0258
+      }
+    ]
+  },
+  {
+    "eventId": 41,
+    "timestamp": "2020-02-03",
+    "eventType": "CommodityShock",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 5,
+    "description": "大宗商品价格冲击",
+    "initialImpact": 0.0387,
+    "affectedEntities": [
+      {
+        "companyId": 4,
+        "impact": 0.031
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 5,
+        "impact": 0.0387
+      },
+      {
+        "entityType": "Company",
+        "entityId": 4,
+        "impact": 0.031
+      }
+    ]
+  },
+  {
+    "eventId": 42,
+    "timestamp": "2020-02-04",
+    "eventType": "TariffChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "关税政策调整",
+    "initialImpact": -0.1926,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": -0.0963
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0963
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0963
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0963
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0173
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0173
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0173
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0173
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0173
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0173
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0468
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0468
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0079
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0079
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0079
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0247
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0247
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0247
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0247
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0247
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.1926
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0347
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0936
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0428
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1121
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0164
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0292
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0157
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0494
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0416
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0261
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0101
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0294
+      }
+    ]
+  },
+  {
+    "eventId": 43,
+    "timestamp": "2020-02-04",
+    "eventType": "RDBreakthrough",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 8,
+    "description": "研发突破，新产品上市",
+    "initialImpact": 0.3914,
+    "affectedEntities": [
+      {
+        "companyId": 8,
+        "impact": 0.6592
+      },
+      {
+        "companyId": 5,
+        "impact": 0.1174
+      },
+      {
+        "companyId": 7,
+        "impact": 0.2677
+      },
+      {
+        "companyId": 11,
+        "impact": 0.1174
+      },
+      {
+        "companyId": 19,
+        "impact": 0.2677
+      },
+      {
+        "companyId": 1,
+        "impact": 0.062
+      },
+      {
+        "companyId": 2,
+        "impact": 0.062
+      },
+      {
+        "companyId": 3,
+        "impact": 0.062
+      },
+      {
+        "companyId": 15,
+        "impact": 0.062
+      },
+      {
+        "companyId": 17,
+        "impact": 0.062
+      },
+      {
+        "companyId": 18,
+        "impact": 0.062
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0169
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0169
+      },
+      {
+        "companyId": 0,
+        "impact": 0.024
+      },
+      {
+        "companyId": 9,
+        "impact": 0.024
+      },
+      {
+        "companyId": 10,
+        "impact": 0.024
+      },
+      {
+        "companyId": 12,
+        "impact": 0.024
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": 0.3914
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.2349
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 17,
+        "impact": 0.1879
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.124
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0338
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0479
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.1395
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": 0.1503
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": 0.1503
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": 0.1503
+      }
+    ]
+  },
+  {
+    "eventId": 44,
+    "timestamp": "2020-02-05",
+    "eventType": "InsiderTrading",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 14,
+    "description": "高管增减持",
+    "initialImpact": 0.0341,
+    "affectedEntities": [
+      {
+        "companyId": 14,
+        "impact": 0.0574
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0102
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 14,
+        "impact": 0.0341
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0205
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 7,
+        "impact": 0.0164
+      },
+      {
+        "entityType": "Company",
+        "entityId": 14,
+        "impact": 0.0131
+      }
+    ]
+  },
+  {
+    "eventId": 45,
+    "timestamp": "2020-02-05",
+    "eventType": "PledgeUnlock",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 14,
+    "description": "限售股解禁",
+    "initialImpact": -0.0549,
+    "affectedEntities": [
+      {
+        "companyId": 14,
+        "impact": -0.0924
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0165
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 14,
+        "impact": -0.0549
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0329
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 7,
+        "impact": -0.0263
+      },
+      {
+        "entityType": "Company",
+        "entityId": 14,
+        "impact": -0.0211
+      }
+    ]
+  },
+  {
+    "eventId": 46,
+    "timestamp": "2020-02-06",
+    "eventType": "RDBreakthrough",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 15,
+    "description": "研发突破，新产品上市",
+    "initialImpact": 0.3012,
+    "affectedEntities": [
+      {
+        "companyId": 15,
+        "impact": 0.5073
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0904
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0904
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0904
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0904
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0904
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0211
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0211
+      },
+      {
+        "companyId": 13,
+        "impact": 0.0211
+      },
+      {
+        "companyId": 0,
+        "impact": 0.0428
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0428
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0428
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0428
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0217
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0217
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0217
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0217
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0217
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": 0.3012
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.1807
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 1,
+        "impact": 0.1446
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": 0.0423
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0857
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0434
+      },
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": 0.1157
+      }
+    ]
+  },
+  {
+    "eventId": 47,
+    "timestamp": "2020-02-07",
+    "eventType": "PledgeUnlock",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 1,
+    "description": "限售股解禁",
+    "initialImpact": -0.0693,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.1167
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0774
+      },
+      {
+        "companyId": 3,
+        "impact": -0.069
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0208
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0474
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0474
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 1,
+        "impact": -0.0693
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0416
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 0,
+        "impact": -0.0333
+      },
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": -0.0299
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": -0.0216
+      },
+      {
+        "entityType": "Company",
+        "entityId": 1,
+        "impact": -0.0266
+      },
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": -0.0266
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": -0.0266
+      },
+      {
+        "entityType": "Company",
+        "entityId": 17,
+        "impact": -0.0266
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": -0.0266
+      }
+    ]
+  },
+  {
+    "eventId": 48,
+    "timestamp": "2020-02-07",
+    "eventType": "TariffChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 4,
+    "description": "关税政策调整",
+    "initialImpact": 0.1238,
+    "affectedEntities": [
+      {
+        "companyId": 5,
+        "impact": 0.0619
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0619
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0619
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0619
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0619
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0327
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0327
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0327
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0327
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0327
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0327
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0089
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0089
+      },
+      {
+        "companyId": 0,
+        "impact": 0.0126
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0126
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0126
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0126
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0076
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0076
+      },
+      {
+        "companyId": 13,
+        "impact": 0.0076
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.1238
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0654
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0178
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0253
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0736
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": 0.0153
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.031
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0157
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0123
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0147
+      }
+    ]
+  },
+  {
+    "eventId": 49,
+    "timestamp": "2020-02-07",
+    "eventType": "PledgeUnlock",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 6,
+    "description": "限售股解禁",
+    "initialImpact": -0.0601,
+    "affectedEntities": [
+      {
+        "companyId": 6,
+        "impact": -0.1012
+      },
+      {
+        "companyId": 4,
+        "impact": -0.018
+      },
+      {
+        "companyId": 13,
+        "impact": -0.018
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0231
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0285
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0256
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": -0.0601
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0361
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 2,
+        "impact": -0.0289
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": -0.0231
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": -0.0285
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": -0.0256
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": -0.0231
+      }
+    ]
+  },
+  {
+    "eventId": 50,
+    "timestamp": "2020-02-07",
+    "eventType": "RDBreakthrough",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 2,
+    "description": "研发突破，新产品上市",
+    "initialImpact": 0.4096,
+    "affectedEntities": [
+      {
+        "companyId": 2,
+        "impact": 0.6897
+      },
+      {
+        "companyId": 1,
+        "impact": 0.2801
+      },
+      {
+        "companyId": 3,
+        "impact": 0.2801
+      },
+      {
+        "companyId": 15,
+        "impact": 0.1229
+      },
+      {
+        "companyId": 17,
+        "impact": 0.2801
+      },
+      {
+        "companyId": 18,
+        "impact": 0.3809
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0288
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0288
+      },
+      {
+        "companyId": 13,
+        "impact": 0.0288
+      },
+      {
+        "companyId": 0,
+        "impact": 0.0582
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0582
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0582
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0582
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0295
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0295
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0295
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0295
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0295
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": 0.4096
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.2457
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 0,
+        "impact": 0.1966
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.1008
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": 0.0575
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.1165
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.059
+      },
+      {
+        "entityType": "Company",
+        "entityId": 1,
+        "impact": 0.1573
+      },
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": 0.1573
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": 0.1573
+      },
+      {
+        "entityType": "Company",
+        "entityId": 17,
+        "impact": 0.1573
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.1573
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0605
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 0,
+        "impact": 0.0484
+      }
+    ]
+  },
+  {
+    "eventId": 51,
+    "timestamp": "2020-02-10",
+    "eventType": "CommodityShock",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 15,
+    "description": "大宗商品价格冲击",
+    "initialImpact": -0.0602,
+    "affectedEntities": [
+      {
+        "companyId": 11,
+        "impact": -0.0481
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 15,
+        "impact": -0.0602
+      },
+      {
+        "entityType": "Company",
+        "entityId": 11,
+        "impact": -0.0481
+      }
+    ]
+  },
+  {
+    "eventId": 52,
+    "timestamp": "2020-02-10",
+    "eventType": "InvestorChase",
+    "sourceEntityType": "Investor",
+    "sourceEntityId": 8,
+    "description": "投资者追高买入",
+    "initialImpact": 0.1339,
+    "affectedEntities": [
+      {
+        "companyId": 10,
+        "impact": 0.0112
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0225
+      },
+      {
+        "companyId": 0,
+        "impact": 0.0225
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0257
+      },
+      {
+        "companyId": 13,
+        "impact": 0.041
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0153
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0579
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0346
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0129
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0297
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0297
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0595
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0571
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0177
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0153
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0145
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Investor",
+        "entityId": 8,
+        "impact": 0.1339
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": 0.0112
+      },
+      {
+        "entityType": "Company",
+        "entityId": 8,
+        "impact": 0.0225
+      },
+      {
+        "entityType": "Company",
+        "entityId": 0,
+        "impact": 0.0225
+      },
+      {
+        "entityType": "Company",
+        "entityId": 11,
+        "impact": 0.0257
+      },
+      {
+        "entityType": "Company",
+        "entityId": 13,
+        "impact": 0.041
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": 0.0153
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": 0.0579
+      },
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": 0.0346
+      },
+      {
+        "entityType": "Company",
+        "entityId": 14,
+        "impact": 0.0129
+      },
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": 0.0297
+      },
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": 0.0297
+      },
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": 0.0595
+      },
+      {
+        "entityType": "Company",
+        "entityId": 19,
+        "impact": 0.0571
+      },
+      {
+        "entityType": "Company",
+        "entityId": 7,
+        "impact": 0.0177
+      },
+      {
+        "entityType": "Company",
+        "entityId": 5,
+        "impact": 0.0153
+      },
+      {
+        "entityType": "Company",
+        "entityId": 12,
+        "impact": 0.0145
+      }
+    ]
+  },
+  {
+    "eventId": 53,
+    "timestamp": "2020-02-10",
+    "eventType": "InterestRateChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "央行调整基准利率",
+    "initialImpact": -0.3059,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": -0.153
+      },
+      {
+        "companyId": 9,
+        "impact": -0.153
+      },
+      {
+        "companyId": 10,
+        "impact": -0.153
+      },
+      {
+        "companyId": 12,
+        "impact": -0.153
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0275
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0275
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0275
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0275
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0275
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0275
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0743
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0743
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0064
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0064
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0064
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0066
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0066
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0066
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0066
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0066
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.3059
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0551
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1487
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0679
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.178
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0129
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0261
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0132
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0464
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.025
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0785
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.066
+      }
+    ]
+  },
+  {
+    "eventId": 54,
+    "timestamp": "2020-02-11",
+    "eventType": "TariffChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 4,
+    "description": "关税政策调整",
+    "initialImpact": -0.0688,
+    "affectedEntities": [
+      {
+        "companyId": 5,
+        "impact": -0.0344
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0344
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0344
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0344
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0344
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0182
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0182
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0182
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0182
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0182
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0182
+      },
+      {
+        "companyId": 0,
+        "impact": -0.007
+      },
+      {
+        "companyId": 9,
+        "impact": -0.007
+      },
+      {
+        "companyId": 10,
+        "impact": -0.007
+      },
+      {
+        "companyId": 12,
+        "impact": -0.007
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0688
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0363
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.014
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0409
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0172
+      }
+    ]
+  },
+  {
+    "eventId": 55,
+    "timestamp": "2020-02-11",
+    "eventType": "CurrencyDevaluation",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "货币大幅贬值",
+    "initialImpact": -0.284,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": -0.142
+      },
+      {
+        "companyId": 9,
+        "impact": -0.142
+      },
+      {
+        "companyId": 10,
+        "impact": -0.142
+      },
+      {
+        "companyId": 12,
+        "impact": -0.142
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0256
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0256
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0256
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0256
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0256
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0256
+      },
+      {
+        "companyId": 14,
+        "impact": -0.069
+      },
+      {
+        "companyId": 16,
+        "impact": -0.069
+      },
+      {
+        "companyId": 4,
+        "impact": -0.006
+      },
+      {
+        "companyId": 6,
+        "impact": -0.006
+      },
+      {
+        "companyId": 13,
+        "impact": -0.006
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0061
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0061
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0061
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0061
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0061
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.284
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0511
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.138
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.063
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1653
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.012
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0242
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0123
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0431
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0232
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0729
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0613
+      }
+    ]
+  },
+  {
+    "eventId": 56,
+    "timestamp": "2020-02-12",
+    "eventType": "TariffChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "关税政策调整",
+    "initialImpact": 0.1926,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": 0.0963
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0963
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0963
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0963
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0173
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0173
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0173
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0173
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0173
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0173
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0468
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0468
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0079
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0079
+      },
+      {
+        "companyId": 13,
+        "impact": 0.0079
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0247
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0247
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0247
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0247
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0247
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.1926
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0347
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0936
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0427
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.1121
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0164
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0292
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": 0.0157
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0494
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0416
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0261
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0101
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0294
+      }
+    ]
+  },
+  {
+    "eventId": 57,
+    "timestamp": "2020-02-12",
+    "eventType": "EarningsSurprise",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 15,
+    "description": "财报超预期",
+    "initialImpact": -0.1605,
+    "affectedEntities": [
+      {
+        "companyId": 15,
+        "impact": -0.2702
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0481
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0481
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0481
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0481
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0481
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": -0.1605
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0963
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 1,
+        "impact": -0.077
+      },
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": -0.0616
+      }
+    ]
+  },
+  {
+    "eventId": 58,
+    "timestamp": "2020-02-13",
+    "eventType": "PolicyChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "市场监管政策变化",
+    "initialImpact": -0.0804,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": -0.0402
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0402
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0402
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0402
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0072
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0072
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0072
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0072
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0072
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0072
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0195
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0195
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0103
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0103
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0103
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0103
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0103
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0804
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0145
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0391
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0178
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0468
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0122
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0206
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0173
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0109
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0123
+      }
+    ]
+  },
+  {
+    "eventId": 59,
+    "timestamp": "2020-02-13",
+    "eventType": "CurrencyDevaluation",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "货币大幅贬值",
+    "initialImpact": -0.2716,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": -0.1358
+      },
+      {
+        "companyId": 9,
+        "impact": -0.1358
+      },
+      {
+        "companyId": 10,
+        "impact": -0.1358
+      },
+      {
+        "companyId": 12,
+        "impact": -0.1358
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0244
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0244
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0244
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0244
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0244
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0244
+      },
+      {
+        "companyId": 14,
+        "impact": -0.066
+      },
+      {
+        "companyId": 16,
+        "impact": -0.066
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0057
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0057
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0057
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0059
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0059
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0059
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0059
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0059
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.2716
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0489
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.132
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0603
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1581
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0114
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0232
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0117
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0412
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0222
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0697
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0586
+      }
+    ]
+  },
+  {
+    "eventId": 60,
+    "timestamp": "2020-02-13",
+    "eventType": "CurrencyDevaluation",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "货币大幅贬值",
+    "initialImpact": -0.24,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": -0.12
+      },
+      {
+        "companyId": 9,
+        "impact": -0.12
+      },
+      {
+        "companyId": 10,
+        "impact": -0.12
+      },
+      {
+        "companyId": 12,
+        "impact": -0.12
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0216
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0216
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0216
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0216
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0216
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0216
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0583
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0583
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0051
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0051
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0051
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0052
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0052
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0052
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0052
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0052
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.24
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0432
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1166
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0533
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1397
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0101
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0205
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0104
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0364
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0196
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0616
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0518
+      }
+    ]
+  },
+  {
+    "eventId": 61,
+    "timestamp": "2020-02-14",
+    "eventType": "SupplyChainDisruption",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 15,
+    "description": "供应链中断",
+    "initialImpact": -0.1062,
+    "affectedEntities": [
+      {
+        "companyId": 11,
+        "impact": -0.085
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 15,
+        "impact": -0.1062
+      },
+      {
+        "entityType": "Company",
+        "entityId": 11,
+        "impact": -0.085
+      }
+    ]
+  },
+  {
+    "eventId": 62,
+    "timestamp": "2020-02-14",
+    "eventType": "SupplyChainDisruption",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 14,
+    "description": "供应链中断",
+    "initialImpact": -0.38,
+    "affectedEntities": [],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 14,
+        "impact": -0.38
+      }
+    ]
+  },
+  {
+    "eventId": 63,
+    "timestamp": "2020-02-17",
+    "eventType": "TariffChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "关税政策调整",
+    "initialImpact": -0.261,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.1305
+      },
+      {
+        "companyId": 2,
+        "impact": -0.1305
+      },
+      {
+        "companyId": 3,
+        "impact": -0.1305
+      },
+      {
+        "companyId": 15,
+        "impact": -0.1305
+      },
+      {
+        "companyId": 17,
+        "impact": -0.1305
+      },
+      {
+        "companyId": 18,
+        "impact": -0.1305
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0305
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0305
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0305
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0619
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0619
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0619
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0619
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0313
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0313
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0313
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0313
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0313
+      },
+      {
+        "companyId": 14,
+        "impact": -0.006
+      },
+      {
+        "companyId": 16,
+        "impact": -0.006
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.261
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0611
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.1237
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0627
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.022
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0121
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0223
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0601
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0275
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.072
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0331
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0128
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0372
+      }
+    ]
+  },
+  {
+    "eventId": 64,
+    "timestamp": "2020-02-17",
+    "eventType": "PledgeUnlock",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 17,
+    "description": "限售股解禁",
+    "initialImpact": -0.1032,
+    "affectedEntities": [
+      {
+        "companyId": 17,
+        "impact": -0.1737
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0706
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0706
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0706
+      },
+      {
+        "companyId": 15,
+        "impact": -0.031
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0706
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 17,
+        "impact": -0.1032
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0619
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 0,
+        "impact": -0.0495
+      },
+      {
+        "entityType": "Company",
+        "entityId": 1,
+        "impact": -0.0396
+      },
+      {
+        "entityType": "Company",
+        "entityId": 2,
+        "impact": -0.0396
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": -0.0396
+      },
+      {
+        "entityType": "Company",
+        "entityId": 17,
+        "impact": -0.0396
+      },
+      {
+        "entityType": "Company",
+        "entityId": 18,
+        "impact": -0.0396
+      }
+    ]
+  },
+  {
+    "eventId": 65,
+    "timestamp": "2020-02-18",
+    "eventType": "MarketCrash",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "市场崩盘",
+    "initialImpact": -0.736,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.368
+      },
+      {
+        "companyId": 2,
+        "impact": -0.368
+      },
+      {
+        "companyId": 3,
+        "impact": -0.368
+      },
+      {
+        "companyId": 15,
+        "impact": -0.368
+      },
+      {
+        "companyId": 17,
+        "impact": -0.368
+      },
+      {
+        "companyId": 18,
+        "impact": -0.368
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0861
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0861
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0861
+      },
+      {
+        "companyId": 0,
+        "impact": -0.1744
+      },
+      {
+        "companyId": 9,
+        "impact": -0.1744
+      },
+      {
+        "companyId": 10,
+        "impact": -0.1744
+      },
+      {
+        "companyId": 12,
+        "impact": -0.1744
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0883
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0883
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0883
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0883
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0883
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0171
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0171
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.736
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.1722
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.3489
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.1766
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.062
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0341
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0279
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0279
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0628
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.1695
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0774
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.203
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0933
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0254
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.036
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.1049
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0106
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.018
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0151
+      }
+    ]
+  },
+  {
+    "eventId": 66,
+    "timestamp": "2020-02-18",
+    "eventType": "SupplyChainDisruption",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 5,
+    "description": "供应链中断",
+    "initialImpact": -0.197,
+    "affectedEntities": [
+      {
+        "companyId": 4,
+        "impact": -0.1576
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 5,
+        "impact": -0.197
+      },
+      {
+        "entityType": "Company",
+        "entityId": 4,
+        "impact": -0.1576
+      }
+    ]
+  },
+  {
+    "eventId": 67,
+    "timestamp": "2020-02-19",
+    "eventType": "PolicyChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 2,
+    "description": "市场监管政策变化",
+    "initialImpact": -0.0932,
+    "affectedEntities": [
+      {
+        "companyId": 14,
+        "impact": -0.0466
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0466
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0145
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0145
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0145
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0145
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0145
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0145
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0078
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0078
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0078
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0246
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0246
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0246
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0246
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0246
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0069
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0069
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0069
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0069
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0932
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0291
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0157
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0492
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0414
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0138
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.026
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.01
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0292
+      }
+    ]
+  },
+  {
+    "eventId": 68,
+    "timestamp": "2020-02-19",
+    "eventType": "InsiderTrading",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 9,
+    "description": "高管增减持",
+    "initialImpact": -0.0328,
+    "affectedEntities": [
+      {
+        "companyId": 9,
+        "impact": -0.0552
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0224
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0224
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0098
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": -0.0328
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0197
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 12,
+        "impact": -0.0157
+      },
+      {
+        "entityType": "Company",
+        "entityId": 0,
+        "impact": -0.0126
+      },
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": -0.0126
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": -0.0126
+      }
+    ]
+  },
+  {
+    "eventId": 69,
+    "timestamp": "2020-02-19",
+    "eventType": "CommodityShock",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 15,
+    "description": "大宗商品价格冲击",
+    "initialImpact": 0.2923,
+    "affectedEntities": [
+      {
+        "companyId": 11,
+        "impact": 0.2339
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 15,
+        "impact": 0.2923
+      },
+      {
+        "entityType": "Company",
+        "entityId": 11,
+        "impact": 0.2339
+      }
+    ]
+  },
+  {
+    "eventId": 70,
+    "timestamp": "2020-02-19",
+    "eventType": "InterestRateChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 4,
+    "description": "央行调整基准利率",
+    "initialImpact": 0.0048,
+    "affectedEntities": [
+      {
+        "companyId": 5,
+        "impact": 0.0024
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0024
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0024
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0024
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0024
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0048
+      }
+    ]
+  },
+  {
+    "eventId": 71,
+    "timestamp": "2020-02-20",
+    "eventType": "SupplyChainDisruption",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 2,
+    "description": "供应链中断",
+    "initialImpact": -0.3089,
+    "affectedEntities": [
+      {
+        "companyId": 6,
+        "impact": -0.2471
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 2,
+        "impact": -0.3089
+      },
+      {
+        "entityType": "Company",
+        "entityId": 6,
+        "impact": -0.2471
+      }
+    ]
+  },
+  {
+    "eventId": 72,
+    "timestamp": "2020-02-21",
+    "eventType": "RDBreakthrough",
+    "sourceEntityType": "Company",
+    "sourceEntityId": 9,
+    "description": "研发突破，新产品上市",
+    "initialImpact": 0.4498,
+    "affectedEntities": [
+      {
+        "companyId": 9,
+        "impact": 0.7574
+      },
+      {
+        "companyId": 0,
+        "impact": 0.3076
+      },
+      {
+        "companyId": 10,
+        "impact": 0.4075
+      },
+      {
+        "companyId": 12,
+        "impact": 0.1349
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0243
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0243
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0243
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0243
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0243
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0243
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0656
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0656
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": 0.4498
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.2699
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 12,
+        "impact": 0.2159
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": 0.0998
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0486
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.1311
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0599
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.1571
+      },
+      {
+        "entityType": "Company",
+        "entityId": 0,
+        "impact": 0.1727
+      },
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": 0.1727
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": 0.1727
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0599
+      },
+      {
+        "entityType": "IndustryChain",
+        "entityId": 12,
+        "impact": 0.0479
+      }
+    ]
+  },
+  {
+    "eventId": 73,
+    "timestamp": "2020-02-21",
+    "eventType": "PolicyChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 0,
+    "description": "市场监管政策变化",
+    "initialImpact": -0.0758,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": -0.0379
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0379
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0379
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0379
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0379
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0379
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0089
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0089
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0089
+      },
+      {
+        "companyId": 0,
+        "impact": -0.018
+      },
+      {
+        "companyId": 9,
+        "impact": -0.018
+      },
+      {
+        "companyId": 10,
+        "impact": -0.018
+      },
+      {
+        "companyId": 12,
+        "impact": -0.018
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0091
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0091
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0091
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0091
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0091
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0087
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0087
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0758
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0177
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0359
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0182
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0175
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0209
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0108
+      }
+    ]
+  },
+  {
+    "eventId": 74,
+    "timestamp": "2020-02-24",
+    "eventType": "CurrencyDevaluation",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 2,
+    "description": "货币大幅贬值",
+    "initialImpact": -0.105,
+    "affectedEntities": [
+      {
+        "companyId": 14,
+        "impact": -0.0525
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0525
+      },
+      {
+        "companyId": 1,
+        "impact": -0.0164
+      },
+      {
+        "companyId": 2,
+        "impact": -0.0164
+      },
+      {
+        "companyId": 3,
+        "impact": -0.0164
+      },
+      {
+        "companyId": 15,
+        "impact": -0.0164
+      },
+      {
+        "companyId": 17,
+        "impact": -0.0164
+      },
+      {
+        "companyId": 18,
+        "impact": -0.0164
+      },
+      {
+        "companyId": 4,
+        "impact": -0.0088
+      },
+      {
+        "companyId": 6,
+        "impact": -0.0088
+      },
+      {
+        "companyId": 13,
+        "impact": -0.0088
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0277
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0277
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0277
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0277
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0277
+      },
+      {
+        "companyId": 0,
+        "impact": -0.0078
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0078
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0078
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0078
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.105
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0327
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": -0.0176
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0554
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0466
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0155
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0293
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.0113
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0329
+      }
+    ]
+  },
+  {
+    "eventId": 75,
+    "timestamp": "2020-02-26",
+    "eventType": "SupplyChainDisruption",
+    "sourceEntityType": "IndustryChain",
+    "sourceEntityId": 15,
+    "description": "供应链中断",
+    "initialImpact": -0.1091,
+    "affectedEntities": [
+      {
+        "companyId": 11,
+        "impact": -0.0873
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "IndustryChain",
+        "entityId": 15,
+        "impact": -0.1091
+      },
+      {
+        "entityType": "Company",
+        "entityId": 11,
+        "impact": -0.0873
+      }
+    ]
+  },
+  {
+    "eventId": 76,
+    "timestamp": "2020-02-26",
+    "eventType": "InterestRateChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "央行调整基准利率",
+    "initialImpact": 0.0982,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": 0.0491
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0491
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0491
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0491
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0088
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0088
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0088
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0088
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0088
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0088
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0239
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0239
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0126
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0126
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0126
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0126
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0126
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0982
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0177
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0477
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0218
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0572
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0149
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0252
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0212
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0133
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.015
+      }
+    ]
+  },
+  {
+    "eventId": 77,
+    "timestamp": "2020-02-27",
+    "eventType": "PolicyChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "市场监管政策变化",
+    "initialImpact": 0.1678,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": 0.0839
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0839
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0839
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0839
+      },
+      {
+        "companyId": 1,
+        "impact": 0.0151
+      },
+      {
+        "companyId": 2,
+        "impact": 0.0151
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0151
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0151
+      },
+      {
+        "companyId": 17,
+        "impact": 0.0151
+      },
+      {
+        "companyId": 18,
+        "impact": 0.0151
+      },
+      {
+        "companyId": 14,
+        "impact": 0.0408
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0408
+      },
+      {
+        "companyId": 4,
+        "impact": 0.0069
+      },
+      {
+        "companyId": 6,
+        "impact": 0.0069
+      },
+      {
+        "companyId": 13,
+        "impact": 0.0069
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0215
+      },
+      {
+        "companyId": 7,
+        "impact": 0.0215
+      },
+      {
+        "companyId": 8,
+        "impact": 0.0215
+      },
+      {
+        "companyId": 11,
+        "impact": 0.0215
+      },
+      {
+        "companyId": 19,
+        "impact": 0.0215
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.1678
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0302
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0816
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0373
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": 0.0977
+      },
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": 0.0143
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0254
+      },
+      {
+        "entityType": "Country",
+        "entityId": 1,
+        "impact": 0.0137
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0431
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": 0.0362
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0227
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": 0.0256
+      }
+    ]
+  },
+  {
+    "eventId": 78,
+    "timestamp": "2020-02-27",
+    "eventType": "InterestRateChange",
+    "sourceEntityType": "Country",
+    "sourceEntityId": 3,
+    "description": "央行调整基准利率",
+    "initialImpact": -0.1106,
+    "affectedEntities": [
+      {
+        "companyId": 0,
+        "impact": -0.0553
+      },
+      {
+        "companyId": 9,
+        "impact": -0.0553
+      },
+      {
+        "companyId": 10,
+        "impact": -0.0553
+      },
+      {
+        "companyId": 12,
+        "impact": -0.0553
+      },
+      {
+        "companyId": 1,
+        "impact": -0.01
+      },
+      {
+        "companyId": 2,
+        "impact": -0.01
+      },
+      {
+        "companyId": 3,
+        "impact": -0.01
+      },
+      {
+        "companyId": 15,
+        "impact": -0.01
+      },
+      {
+        "companyId": 17,
+        "impact": -0.01
+      },
+      {
+        "companyId": 18,
+        "impact": -0.01
+      },
+      {
+        "companyId": 14,
+        "impact": -0.0269
+      },
+      {
+        "companyId": 16,
+        "impact": -0.0269
+      },
+      {
+        "companyId": 5,
+        "impact": -0.0142
+      },
+      {
+        "companyId": 7,
+        "impact": -0.0142
+      },
+      {
+        "companyId": 8,
+        "impact": -0.0142
+      },
+      {
+        "companyId": 11,
+        "impact": -0.0142
+      },
+      {
+        "companyId": 19,
+        "impact": -0.0142
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Country",
+        "entityId": 3,
+        "impact": -0.1106
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0199
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0538
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0246
+      },
+      {
+        "entityType": "Country",
+        "entityId": 2,
+        "impact": -0.0644
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0168
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0284
+      },
+      {
+        "entityType": "Country",
+        "entityId": 4,
+        "impact": -0.0239
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.015
+      },
+      {
+        "entityType": "Country",
+        "entityId": 0,
+        "impact": -0.0169
+      }
+    ]
+  },
+  {
+    "eventId": 79,
+    "timestamp": "2020-02-28",
+    "eventType": "InvestorChase",
+    "sourceEntityType": "Investor",
+    "sourceEntityId": 11,
+    "description": "投资者追高买入",
+    "initialImpact": 0.1024,
+    "affectedEntities": [
+      {
+        "companyId": 1,
+        "impact": 0.0234
+      },
+      {
+        "companyId": 15,
+        "impact": 0.0406
+      },
+      {
+        "companyId": 10,
+        "impact": 0.0375
+      },
+      {
+        "companyId": 9,
+        "impact": 0.0172
+      },
+      {
+        "companyId": 16,
+        "impact": 0.0393
+      },
+      {
+        "companyId": 12,
+        "impact": 0.0154
+      },
+      {
+        "companyId": 3,
+        "impact": 0.0295
+      },
+      {
+        "companyId": 5,
+        "impact": 0.0399
+      }
+    ],
+    "propagationPath": [
+      {
+        "entityType": "Investor",
+        "entityId": 11,
+        "impact": 0.1024
+      },
+      {
+        "entityType": "Company",
+        "entityId": 1,
+        "impact": 0.0234
+      },
+      {
+        "entityType": "Company",
+        "entityId": 15,
+        "impact": 0.0406
+      },
+      {
+        "entityType": "Company",
+        "entityId": 10,
+        "impact": 0.0375
+      },
+      {
+        "entityType": "Company",
+        "entityId": 9,
+        "impact": 0.0172
+      },
+      {
+        "entityType": "Company",
+        "entityId": 16,
+        "impact": 0.0393
+      },
+      {
+        "entityType": "Company",
+        "entityId": 12,
+        "impact": 0.0154
+      },
+      {
+        "entityType": "Company",
+        "entityId": 3,
+        "impact": 0.0295
+      },
+      {
+        "entityType": "Company",
+        "entityId": 5,
+        "impact": 0.0399
+      }
+    ]
+  }
+]

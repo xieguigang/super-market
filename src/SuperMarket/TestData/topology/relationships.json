@@ -1,0 +1,2182 @@
+﻿[
+  {
+    "id": 0,
+    "sourceType": "Company",
+    "sourceId": 0,
+    "targetType": "Country",
+    "targetId": 3,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "Germany EnergyExtraction 001 总部位于 Germany"
+  },
+  {
+    "id": 1,
+    "sourceType": "Company",
+    "sourceId": 1,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United States EnergyRefining 002 总部位于 United States"
+  },
+  {
+    "id": 2,
+    "sourceType": "Company",
+    "sourceId": 2,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United States Mining 003 总部位于 United States"
+  },
+  {
+    "id": 3,
+    "sourceType": "Company",
+    "sourceId": 3,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United States SteelMaking 004 总部位于 United States"
+  },
+  {
+    "id": 4,
+    "sourceType": "Company",
+    "sourceId": 4,
+    "targetType": "Country",
+    "targetId": 1,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "China Farming 005 总部位于 China"
+  },
+  {
+    "id": 5,
+    "sourceType": "Company",
+    "sourceId": 5,
+    "targetType": "Country",
+    "targetId": 4,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United Kingdom FoodProcessing 006 总部位于 United Kingdom"
+  },
+  {
+    "id": 6,
+    "sourceType": "Company",
+    "sourceId": 6,
+    "targetType": "Country",
+    "targetId": 1,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "China SemiconductorDesign 007 总部位于 China"
+  },
+  {
+    "id": 7,
+    "sourceType": "Company",
+    "sourceId": 7,
+    "targetType": "Country",
+    "targetId": 4,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United Kingdom ChipManufacturing 008 总部位于 United Kingdom"
+  },
+  {
+    "id": 8,
+    "sourceType": "Company",
+    "sourceId": 8,
+    "targetType": "Country",
+    "targetId": 4,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United Kingdom ConsumerElectronics 009 总部位于 United Kingdom"
+  },
+  {
+    "id": 9,
+    "sourceType": "Company",
+    "sourceId": 9,
+    "targetType": "Country",
+    "targetId": 3,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "Germany BiotechRnD 010 总部位于 Germany"
+  },
+  {
+    "id": 10,
+    "sourceType": "Company",
+    "sourceId": 10,
+    "targetType": "Country",
+    "targetId": 3,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "Germany MedicalDevices 011 总部位于 Germany"
+  },
+  {
+    "id": 11,
+    "sourceType": "Company",
+    "sourceId": 11,
+    "targetType": "Country",
+    "targetId": 4,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United Kingdom HealthcareServices 012 总部位于 United Kingdom"
+  },
+  {
+    "id": 12,
+    "sourceType": "Company",
+    "sourceId": 12,
+    "targetType": "Country",
+    "targetId": 3,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "Germany ApparelManufacturing 013 总部位于 Germany"
+  },
+  {
+    "id": 13,
+    "sourceType": "Company",
+    "sourceId": 13,
+    "targetType": "Country",
+    "targetId": 1,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "China BrandRetail 014 总部位于 China"
+  },
+  {
+    "id": 14,
+    "sourceType": "Company",
+    "sourceId": 14,
+    "targetType": "Country",
+    "targetId": 2,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "Japan EnergyExtraction 015 总部位于 Japan"
+  },
+  {
+    "id": 15,
+    "sourceType": "Company",
+    "sourceId": 15,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United States EnergyRefining 016 总部位于 United States"
+  },
+  {
+    "id": 16,
+    "sourceType": "Company",
+    "sourceId": 16,
+    "targetType": "Country",
+    "targetId": 2,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "Japan Mining 017 总部位于 Japan"
+  },
+  {
+    "id": 17,
+    "sourceType": "Company",
+    "sourceId": 17,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United States SteelMaking 018 总部位于 United States"
+  },
+  {
+    "id": 18,
+    "sourceType": "Company",
+    "sourceId": 18,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United States Farming 019 总部位于 United States"
+  },
+  {
+    "id": 19,
+    "sourceType": "Company",
+    "sourceId": 19,
+    "targetType": "Country",
+    "targetId": 4,
+    "type": "Ownership",
+    "weight": 1,
+    "description": "United Kingdom FoodProcessing 020 总部位于 United Kingdom"
+  },
+  {
+    "id": 20,
+    "sourceType": "IndustryChain",
+    "sourceId": 3,
+    "targetType": "IndustryChain",
+    "targetId": 4,
+    "type": "SupplyChain",
+    "weight": 0.6693142141072611,
+    "description": "China-纺织原料 → China-品牌零售 供应链"
+  },
+  {
+    "id": 21,
+    "sourceType": "IndustryChain",
+    "sourceId": 11,
+    "targetType": "IndustryChain",
+    "targetId": 8,
+    "type": "SupplyChain",
+    "weight": 0.6842923169882467,
+    "description": "Japan-半导体晶圆 → Japan-消费电子组装 供应链"
+  },
+  {
+    "id": 22,
+    "sourceType": "Company",
+    "sourceId": 0,
+    "targetType": "IndustryChain",
+    "targetId": 12,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "Germany EnergyExtraction 001 参与 Germany-食品加工"
+  },
+  {
+    "id": 23,
+    "sourceType": "Company",
+    "sourceId": 1,
+    "targetType": "IndustryChain",
+    "targetId": 0,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United States EnergyRefining 002 参与 United States-金属矿采选"
+  },
+  {
+    "id": 24,
+    "sourceType": "Company",
+    "sourceId": 2,
+    "targetType": "IndustryChain",
+    "targetId": 0,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United States Mining 003 参与 United States-金属矿采选"
+  },
+  {
+    "id": 25,
+    "sourceType": "Company",
+    "sourceId": 3,
+    "targetType": "IndustryChain",
+    "targetId": 0,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United States SteelMaking 004 参与 United States-金属矿采选"
+  },
+  {
+    "id": 26,
+    "sourceType": "Company",
+    "sourceId": 4,
+    "targetType": "IndustryChain",
+    "targetId": 5,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "China Farming 005 参与 China-能源分销"
+  },
+  {
+    "id": 27,
+    "sourceType": "Company",
+    "sourceId": 5,
+    "targetType": "IndustryChain",
+    "targetId": 16,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United Kingdom FoodProcessing 006 参与 United Kingdom-品牌零售"
+  },
+  {
+    "id": 28,
+    "sourceType": "Company",
+    "sourceId": 6,
+    "targetType": "IndustryChain",
+    "targetId": 2,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "China SemiconductorDesign 007 参与 China-消费电子组装"
+  },
+  {
+    "id": 29,
+    "sourceType": "Company",
+    "sourceId": 7,
+    "targetType": "IndustryChain",
+    "targetId": 17,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United Kingdom ChipManufacturing 008 参与 United Kingdom-消费电子组装"
+  },
+  {
+    "id": 30,
+    "sourceType": "Company",
+    "sourceId": 8,
+    "targetType": "IndustryChain",
+    "targetId": 17,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United Kingdom ConsumerElectronics 009 参与 United Kingdom-消费电子组装"
+  },
+  {
+    "id": 31,
+    "sourceType": "Company",
+    "sourceId": 9,
+    "targetType": "IndustryChain",
+    "targetId": 12,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "Germany BiotechRnD 010 参与 Germany-食品加工"
+  },
+  {
+    "id": 32,
+    "sourceType": "Company",
+    "sourceId": 10,
+    "targetType": "IndustryChain",
+    "targetId": 12,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "Germany MedicalDevices 011 参与 Germany-食品加工"
+  },
+  {
+    "id": 33,
+    "sourceType": "Company",
+    "sourceId": 11,
+    "targetType": "IndustryChain",
+    "targetId": 15,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United Kingdom HealthcareServices 012 参与 United Kingdom-生物医药研发"
+  },
+  {
+    "id": 34,
+    "sourceType": "Company",
+    "sourceId": 12,
+    "targetType": "IndustryChain",
+    "targetId": 13,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "Germany ApparelManufacturing 013 参与 Germany-芯片制造"
+  },
+  {
+    "id": 35,
+    "sourceType": "Company",
+    "sourceId": 13,
+    "targetType": "IndustryChain",
+    "targetId": 4,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "China BrandRetail 014 参与 China-品牌零售"
+  },
+  {
+    "id": 36,
+    "sourceType": "Company",
+    "sourceId": 14,
+    "targetType": "IndustryChain",
+    "targetId": 7,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "Japan EnergyExtraction 015 参与 Japan-原油开采"
+  },
+  {
+    "id": 37,
+    "sourceType": "Company",
+    "sourceId": 15,
+    "targetType": "IndustryChain",
+    "targetId": 1,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United States EnergyRefining 016 参与 United States-芯片制造"
+  },
+  {
+    "id": 38,
+    "sourceType": "Company",
+    "sourceId": 16,
+    "targetType": "IndustryChain",
+    "targetId": 11,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "Japan Mining 017 参与 Japan-半导体晶圆"
+  },
+  {
+    "id": 39,
+    "sourceType": "Company",
+    "sourceId": 17,
+    "targetType": "IndustryChain",
+    "targetId": 0,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United States SteelMaking 018 参与 United States-金属矿采选"
+  },
+  {
+    "id": 40,
+    "sourceType": "Company",
+    "sourceId": 18,
+    "targetType": "IndustryChain",
+    "targetId": 0,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United States Farming 019 参与 United States-金属矿采选"
+  },
+  {
+    "id": 41,
+    "sourceType": "Company",
+    "sourceId": 19,
+    "targetType": "IndustryChain",
+    "targetId": 17,
+    "type": "SupplyChain",
+    "weight": 0.8,
+    "description": "United Kingdom FoodProcessing 020 参与 United Kingdom-消费电子组装"
+  },
+  {
+    "id": 42,
+    "sourceType": "Country",
+    "sourceId": 0,
+    "targetType": "Country",
+    "targetId": 1,
+    "type": "Trade",
+    "weight": 0.39,
+    "description": "United States → China 贸易"
+  },
+  {
+    "id": 43,
+    "sourceType": "Country",
+    "sourceId": 0,
+    "targetType": "Country",
+    "targetId": 3,
+    "type": "Trade",
+    "weight": 0.79,
+    "description": "United States → Germany 贸易"
+  },
+  {
+    "id": 44,
+    "sourceType": "Country",
+    "sourceId": 1,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "Trade",
+    "weight": 0.6,
+    "description": "China → United States 贸易"
+  },
+  {
+    "id": 45,
+    "sourceType": "Country",
+    "sourceId": 1,
+    "targetType": "Country",
+    "targetId": 2,
+    "type": "Trade",
+    "weight": 0.33,
+    "description": "China → Japan 贸易"
+  },
+  {
+    "id": 46,
+    "sourceType": "Country",
+    "sourceId": 1,
+    "targetType": "Country",
+    "targetId": 4,
+    "type": "Trade",
+    "weight": 0.27,
+    "description": "China → United Kingdom 贸易"
+  },
+  {
+    "id": 47,
+    "sourceType": "Country",
+    "sourceId": 2,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "Trade",
+    "weight": 0.52,
+    "description": "Japan → United States 贸易"
+  },
+  {
+    "id": 48,
+    "sourceType": "Country",
+    "sourceId": 2,
+    "targetType": "Country",
+    "targetId": 1,
+    "type": "Trade",
+    "weight": 0.28,
+    "description": "Japan → China 贸易"
+  },
+  {
+    "id": 49,
+    "sourceType": "Country",
+    "sourceId": 2,
+    "targetType": "Country",
+    "targetId": 4,
+    "type": "Trade",
+    "weight": 0.88,
+    "description": "Japan → United Kingdom 贸易"
+  },
+  {
+    "id": 50,
+    "sourceType": "Country",
+    "sourceId": 3,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "Trade",
+    "weight": 0.3,
+    "description": "Germany → United States 贸易"
+  },
+  {
+    "id": 51,
+    "sourceType": "Country",
+    "sourceId": 3,
+    "targetType": "Country",
+    "targetId": 2,
+    "type": "Trade",
+    "weight": 0.81,
+    "description": "Germany → Japan 贸易"
+  },
+  {
+    "id": 52,
+    "sourceType": "Country",
+    "sourceId": 4,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "Trade",
+    "weight": 0.88,
+    "description": "United Kingdom → United States 贸易"
+  },
+  {
+    "id": 53,
+    "sourceType": "Country",
+    "sourceId": 4,
+    "targetType": "Country",
+    "targetId": 2,
+    "type": "Trade",
+    "weight": 0.24,
+    "description": "United Kingdom → Japan 贸易"
+  },
+  {
+    "id": 54,
+    "sourceType": "Country",
+    "sourceId": 4,
+    "targetType": "Country",
+    "targetId": 3,
+    "type": "Trade",
+    "weight": 0.34,
+    "description": "United Kingdom → Germany 贸易"
+  },
+  {
+    "id": 55,
+    "sourceType": "Country",
+    "sourceId": 0,
+    "targetType": "Country",
+    "targetId": 4,
+    "type": "TreasuryHolding",
+    "weight": 0.4,
+    "description": "United States 持有 United Kingdom 国债 19913"
+  },
+  {
+    "id": 56,
+    "sourceType": "Country",
+    "sourceId": 1,
+    "targetType": "Country",
+    "targetId": 2,
+    "type": "TreasuryHolding",
+    "weight": 0.27,
+    "description": "China 持有 Japan 国债 13369"
+  },
+  {
+    "id": 57,
+    "sourceType": "Country",
+    "sourceId": 2,
+    "targetType": "Country",
+    "targetId": 4,
+    "type": "TreasuryHolding",
+    "weight": 0.74,
+    "description": "Japan 持有 United Kingdom 国债 37188"
+  },
+  {
+    "id": 58,
+    "sourceType": "Country",
+    "sourceId": 3,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "TreasuryHolding",
+    "weight": 0.37,
+    "description": "Germany 持有 United States 国债 18368"
+  },
+  {
+    "id": 59,
+    "sourceType": "Country",
+    "sourceId": 3,
+    "targetType": "Country",
+    "targetId": 2,
+    "type": "TreasuryHolding",
+    "weight": 0.97,
+    "description": "Germany 持有 Japan 国债 48444"
+  },
+  {
+    "id": 60,
+    "sourceType": "Country",
+    "sourceId": 4,
+    "targetType": "Country",
+    "targetId": 0,
+    "type": "TreasuryHolding",
+    "weight": 0.99,
+    "description": "United Kingdom 持有 United States 国债 49427"
+  },
+  {
+    "id": 61,
+    "sourceType": "Company",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 9,
+    "type": "Competition",
+    "weight": 0.64,
+    "description": "EUEn001 ↔ EUHi010 竞争"
+  },
+  {
+    "id": 62,
+    "sourceType": "Company",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 10,
+    "type": "Competition",
+    "weight": 0.7,
+    "description": "EUEn001 ↔ EUHi011 竞争"
+  },
+  {
+    "id": 63,
+    "sourceType": "Company",
+    "sourceId": 9,
+    "targetType": "Company",
+    "targetId": 10,
+    "type": "Competition",
+    "weight": 0.37,
+    "description": "EUHi010 ↔ EUHi011 竞争"
+  },
+  {
+    "id": 64,
+    "sourceType": "Company",
+    "sourceId": 1,
+    "targetType": "Company",
+    "targetId": 2,
+    "type": "Competition",
+    "weight": 0.72,
+    "description": "USEn002 ↔ USIn003 竞争"
+  },
+  {
+    "id": 65,
+    "sourceType": "Company",
+    "sourceId": 1,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Competition",
+    "weight": 0.52,
+    "description": "USEn002 ↔ USIn004 竞争"
+  },
+  {
+    "id": 66,
+    "sourceType": "Company",
+    "sourceId": 2,
+    "targetType": "Company",
+    "targetId": 18,
+    "type": "Competition",
+    "weight": 0.41,
+    "description": "USIn003 ↔ USAg019 竞争"
+  },
+  {
+    "id": 67,
+    "sourceType": "Company",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 13,
+    "type": "Competition",
+    "weight": 0.73,
+    "description": "GBAg006 ↔ CNCo014 竞争"
+  },
+  {
+    "id": 68,
+    "sourceType": "Company",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 7,
+    "type": "Competition",
+    "weight": 0.64,
+    "description": "CNIn007 ↔ GBIn008 竞争"
+  },
+  {
+    "id": 69,
+    "sourceType": "Company",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 8,
+    "type": "Competition",
+    "weight": 0.79,
+    "description": "CNIn007 ↔ GBIn009 竞争"
+  },
+  {
+    "id": 70,
+    "sourceType": "Company",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 19,
+    "type": "Competition",
+    "weight": 0.71,
+    "description": "CNIn007 ↔ GBAg020 竞争"
+  },
+  {
+    "id": 71,
+    "sourceType": "Company",
+    "sourceId": 7,
+    "targetType": "Company",
+    "targetId": 8,
+    "type": "Competition",
+    "weight": 0.43,
+    "description": "GBIn008 ↔ GBIn009 竞争"
+  },
+  {
+    "id": 72,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Portfolio",
+    "weight": 0.4,
+    "description": "BlackStone Capital 持有 USIn004 3255285"
+  },
+  {
+    "id": 73,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 7,
+    "type": "Portfolio",
+    "weight": 0.18,
+    "description": "BlackStone Capital 持有 GBIn008 1510703"
+  },
+  {
+    "id": 74,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 18,
+    "type": "Portfolio",
+    "weight": 0.46,
+    "description": "BlackStone Capital 持有 USAg019 3804586"
+  },
+  {
+    "id": 75,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 13,
+    "type": "Portfolio",
+    "weight": 0.11,
+    "description": "BlackStone Capital 持有 CNCo014 876095"
+  },
+  {
+    "id": 76,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 16,
+    "type": "Portfolio",
+    "weight": 0.35,
+    "description": "BlackStone Capital 持有 JPIn017 2837690"
+  },
+  {
+    "id": 77,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 4,
+    "type": "Portfolio",
+    "weight": 0.25,
+    "description": "BlackStone Capital 持有 CNAg005 2061440"
+  },
+  {
+    "id": 78,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 11,
+    "type": "Portfolio",
+    "weight": 0.19,
+    "description": "BlackStone Capital 持有 GBHi012 1587259"
+  },
+  {
+    "id": 79,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 0,
+    "type": "Portfolio",
+    "weight": 0.35,
+    "description": "BlackStone Capital 持有 EUEn001 2877812"
+  },
+  {
+    "id": 80,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 17,
+    "type": "Portfolio",
+    "weight": 0.33,
+    "description": "BlackStone Capital 持有 USIn018 2663539"
+  },
+  {
+    "id": 81,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 9,
+    "type": "Portfolio",
+    "weight": 0.15,
+    "description": "BlackStone Capital 持有 EUHi010 1235816"
+  },
+  {
+    "id": 82,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 19,
+    "type": "Portfolio",
+    "weight": 0.24,
+    "description": "BlackStone Capital 持有 GBAg020 1956778"
+  },
+  {
+    "id": 83,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 10,
+    "type": "Portfolio",
+    "weight": 0.75,
+    "description": "BlackStone Capital 持有 EUHi011 6144628"
+  },
+  {
+    "id": 84,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 15,
+    "type": "Portfolio",
+    "weight": 0.35,
+    "description": "BlackStone Capital 持有 USEn016 2863899"
+  },
+  {
+    "id": 85,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 6,
+    "type": "Portfolio",
+    "weight": 0.57,
+    "description": "BlackStone Capital 持有 CNIn007 4646093"
+  },
+  {
+    "id": 86,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 8,
+    "type": "Portfolio",
+    "weight": 0.74,
+    "description": "BlackStone Capital 持有 GBIn009 6084455"
+  },
+  {
+    "id": 87,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 2,
+    "type": "Portfolio",
+    "weight": 0.24,
+    "description": "BlackStone Capital 持有 USIn003 1989435"
+  },
+  {
+    "id": 88,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 5,
+    "type": "Portfolio",
+    "weight": 0.51,
+    "description": "BlackStone Capital 持有 GBAg006 4207050"
+  },
+  {
+    "id": 89,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 12,
+    "type": "Portfolio",
+    "weight": 0.42,
+    "description": "BlackStone Capital 持有 EUCo013 3433757"
+  },
+  {
+    "id": 90,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 1,
+    "type": "Portfolio",
+    "weight": 0.68,
+    "description": "BlackStone Capital 持有 USEn002 5610058"
+  },
+  {
+    "id": 91,
+    "sourceType": "Investor",
+    "sourceId": 0,
+    "targetType": "Company",
+    "targetId": 14,
+    "type": "Portfolio",
+    "weight": 0.48,
+    "description": "BlackStone Capital 持有 JPEn015 3914047"
+  },
+  {
+    "id": 92,
+    "sourceType": "Investor",
+    "sourceId": 1,
+    "targetType": "Company",
+    "targetId": 10,
+    "type": "Portfolio",
+    "weight": 0.75,
+    "description": "Vanguard Trust 持有 EUHi011 2245780"
+  },
+  {
+    "id": 93,
+    "sourceType": "Investor",
+    "sourceId": 1,
+    "targetType": "Company",
+    "targetId": 7,
+    "type": "Portfolio",
+    "weight": 0.22,
+    "description": "Vanguard Trust 持有 GBIn008 673771"
+  },
+  {
+    "id": 94,
+    "sourceType": "Investor",
+    "sourceId": 1,
+    "targetType": "Company",
+    "targetId": 6,
+    "type": "Portfolio",
+    "weight": 0.16,
+    "description": "Vanguard Trust 持有 CNIn007 473397"
+  },
+  {
+    "id": 95,
+    "sourceType": "Investor",
+    "sourceId": 1,
+    "targetType": "Company",
+    "targetId": 4,
+    "type": "Portfolio",
+    "weight": 0.2,
+    "description": "Vanguard Trust 持有 CNAg005 599511"
+  },
+  {
+    "id": 96,
+    "sourceType": "Investor",
+    "sourceId": 1,
+    "targetType": "Company",
+    "targetId": 15,
+    "type": "Portfolio",
+    "weight": 0.55,
+    "description": "Vanguard Trust 持有 USEn016 1659052"
+  },
+  {
+    "id": 97,
+    "sourceType": "Investor",
+    "sourceId": 1,
+    "targetType": "Company",
+    "targetId": 9,
+    "type": "Portfolio",
+    "weight": 0.59,
+    "description": "Vanguard Trust 持有 EUHi010 1784153"
+  },
+  {
+    "id": 98,
+    "sourceType": "Investor",
+    "sourceId": 1,
+    "targetType": "Company",
+    "targetId": 16,
+    "type": "Portfolio",
+    "weight": 0.47,
+    "description": "Vanguard Trust 持有 JPIn017 1416057"
+  },
+  {
+    "id": 99,
+    "sourceType": "Investor",
+    "sourceId": 1,
+    "targetType": "Company",
+    "targetId": 18,
+    "type": "Portfolio",
+    "weight": 0.48,
+    "description": "Vanguard Trust 持有 USAg019 1442287"
+  },
+  {
+    "id": 100,
+    "sourceType": "Investor",
+    "sourceId": 2,
+    "targetType": "Company",
+    "targetId": 8,
+    "type": "Portfolio",
+    "weight": 0.4,
+    "description": "Pioneer Fund 持有 GBIn009 2526926"
+  },
+  {
+    "id": 101,
+    "sourceType": "Investor",
+    "sourceId": 2,
+    "targetType": "Company",
+    "targetId": 10,
+    "type": "Portfolio",
+    "weight": 0.2,
+    "description": "Pioneer Fund 持有 EUHi011 1243861"
+  },
+  {
+    "id": 102,
+    "sourceType": "Investor",
+    "sourceId": 2,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Portfolio",
+    "weight": 0.15,
+    "description": "Pioneer Fund 持有 USIn004 939315"
+  },
+  {
+    "id": 103,
+    "sourceType": "Investor",
+    "sourceId": 2,
+    "targetType": "Company",
+    "targetId": 9,
+    "type": "Portfolio",
+    "weight": 0.46,
+    "description": "Pioneer Fund 持有 EUHi010 2918608"
+  },
+  {
+    "id": 104,
+    "sourceType": "Investor",
+    "sourceId": 2,
+    "targetType": "Company",
+    "targetId": 19,
+    "type": "Portfolio",
+    "weight": 0.2,
+    "description": "Pioneer Fund 持有 GBAg020 1274846"
+  },
+  {
+    "id": 105,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 6,
+    "type": "Portfolio",
+    "weight": 0.55,
+    "description": "Apex Whale 持有 CNIn007 5409795"
+  },
+  {
+    "id": 106,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 13,
+    "type": "Portfolio",
+    "weight": 0.1,
+    "description": "Apex Whale 持有 CNCo014 1037272"
+  },
+  {
+    "id": 107,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 12,
+    "type": "Portfolio",
+    "weight": 0.61,
+    "description": "Apex Whale 持有 EUCo013 6017124"
+  },
+  {
+    "id": 108,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Portfolio",
+    "weight": 0.62,
+    "description": "Apex Whale 持有 USIn004 6109997"
+  },
+  {
+    "id": 109,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 15,
+    "type": "Portfolio",
+    "weight": 0.62,
+    "description": "Apex Whale 持有 USEn016 6196782"
+  },
+  {
+    "id": 110,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 1,
+    "type": "Portfolio",
+    "weight": 0.31,
+    "description": "Apex Whale 持有 USEn002 3092752"
+  },
+  {
+    "id": 111,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 16,
+    "type": "Portfolio",
+    "weight": 0.75,
+    "description": "Apex Whale 持有 JPIn017 7431199"
+  },
+  {
+    "id": 112,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 5,
+    "type": "Portfolio",
+    "weight": 0.72,
+    "description": "Apex Whale 持有 GBAg006 7099294"
+  },
+  {
+    "id": 113,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 14,
+    "type": "Portfolio",
+    "weight": 0.48,
+    "description": "Apex Whale 持有 JPEn015 4751290"
+  },
+  {
+    "id": 114,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 9,
+    "type": "Portfolio",
+    "weight": 0.18,
+    "description": "Apex Whale 持有 EUHi010 1802970"
+  },
+  {
+    "id": 115,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 8,
+    "type": "Portfolio",
+    "weight": 0.69,
+    "description": "Apex Whale 持有 GBIn009 6823643"
+  },
+  {
+    "id": 116,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 10,
+    "type": "Portfolio",
+    "weight": 0.19,
+    "description": "Apex Whale 持有 EUHi011 1861892"
+  },
+  {
+    "id": 117,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 7,
+    "type": "Portfolio",
+    "weight": 0.47,
+    "description": "Apex Whale 持有 GBIn008 4685895"
+  },
+  {
+    "id": 118,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 2,
+    "type": "Portfolio",
+    "weight": 0.2,
+    "description": "Apex Whale 持有 USIn003 1997205"
+  },
+  {
+    "id": 119,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 19,
+    "type": "Portfolio",
+    "weight": 0.12,
+    "description": "Apex Whale 持有 GBAg020 1228791"
+  },
+  {
+    "id": 120,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 4,
+    "type": "Portfolio",
+    "weight": 0.41,
+    "description": "Apex Whale 持有 CNAg005 4085843"
+  },
+  {
+    "id": 121,
+    "sourceType": "Investor",
+    "sourceId": 3,
+    "targetType": "Company",
+    "targetId": 17,
+    "type": "Portfolio",
+    "weight": 0.16,
+    "description": "Apex Whale 持有 USIn018 1635970"
+  },
+  {
+    "id": 122,
+    "sourceType": "Investor",
+    "sourceId": 4,
+    "targetType": "Company",
+    "targetId": 11,
+    "type": "Portfolio",
+    "weight": 0.26,
+    "description": "GoldenBridge Holdings 持有 GBHi012 139237"
+  },
+  {
+    "id": 123,
+    "sourceType": "Investor",
+    "sourceId": 4,
+    "targetType": "Company",
+    "targetId": 14,
+    "type": "Portfolio",
+    "weight": 0.23,
+    "description": "GoldenBridge Holdings 持有 JPEn015 123466"
+  },
+  {
+    "id": 124,
+    "sourceType": "Investor",
+    "sourceId": 4,
+    "targetType": "Company",
+    "targetId": 2,
+    "type": "Portfolio",
+    "weight": 0.54,
+    "description": "GoldenBridge Holdings 持有 USIn003 290183"
+  },
+  {
+    "id": 125,
+    "sourceType": "Investor",
+    "sourceId": 4,
+    "targetType": "Company",
+    "targetId": 17,
+    "type": "Portfolio",
+    "weight": 0.27,
+    "description": "GoldenBridge Holdings 持有 USIn018 145707"
+  },
+  {
+    "id": 126,
+    "sourceType": "Investor",
+    "sourceId": 4,
+    "targetType": "Company",
+    "targetId": 7,
+    "type": "Portfolio",
+    "weight": 0.63,
+    "description": "GoldenBridge Holdings 持有 GBIn008 337944"
+  },
+  {
+    "id": 127,
+    "sourceType": "Investor",
+    "sourceId": 4,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Portfolio",
+    "weight": 0.47,
+    "description": "GoldenBridge Holdings 持有 USIn004 253538"
+  },
+  {
+    "id": 128,
+    "sourceType": "Investor",
+    "sourceId": 4,
+    "targetType": "Company",
+    "targetId": 1,
+    "type": "Portfolio",
+    "weight": 0.38,
+    "description": "GoldenBridge Holdings 持有 USEn002 204738"
+  },
+  {
+    "id": 129,
+    "sourceType": "Investor",
+    "sourceId": 4,
+    "targetType": "Company",
+    "targetId": 12,
+    "type": "Portfolio",
+    "weight": 0.73,
+    "description": "GoldenBridge Holdings 持有 EUCo013 392158"
+  },
+  {
+    "id": 130,
+    "sourceType": "Investor",
+    "sourceId": 4,
+    "targetType": "Company",
+    "targetId": 9,
+    "type": "Portfolio",
+    "weight": 0.52,
+    "description": "GoldenBridge Holdings 持有 EUHi010 278496"
+  },
+  {
+    "id": 131,
+    "sourceType": "Investor",
+    "sourceId": 4,
+    "targetType": "Company",
+    "targetId": 18,
+    "type": "Portfolio",
+    "weight": 0.34,
+    "description": "GoldenBridge Holdings 持有 USAg019 181315"
+  },
+  {
+    "id": 132,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 0,
+    "type": "Portfolio",
+    "weight": 0.5,
+    "description": "Quantum Edge LLC 持有 EUEn001 185049"
+  },
+  {
+    "id": 133,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 7,
+    "type": "Portfolio",
+    "weight": 0.55,
+    "description": "Quantum Edge LLC 持有 GBIn008 201731"
+  },
+  {
+    "id": 134,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 11,
+    "type": "Portfolio",
+    "weight": 0.26,
+    "description": "Quantum Edge LLC 持有 GBHi012 94724"
+  },
+  {
+    "id": 135,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 13,
+    "type": "Portfolio",
+    "weight": 0.54,
+    "description": "Quantum Edge LLC 持有 CNCo014 198270"
+  },
+  {
+    "id": 136,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 8,
+    "type": "Portfolio",
+    "weight": 0.65,
+    "description": "Quantum Edge LLC 持有 GBIn009 241706"
+  },
+  {
+    "id": 137,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 16,
+    "type": "Portfolio",
+    "weight": 0.2,
+    "description": "Quantum Edge LLC 持有 JPIn017 73137"
+  },
+  {
+    "id": 138,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 6,
+    "type": "Portfolio",
+    "weight": 0.28,
+    "description": "Quantum Edge LLC 持有 CNIn007 105162"
+  },
+  {
+    "id": 139,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 15,
+    "type": "Portfolio",
+    "weight": 0.15,
+    "description": "Quantum Edge LLC 持有 USEn016 54520"
+  },
+  {
+    "id": 140,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 10,
+    "type": "Portfolio",
+    "weight": 0.69,
+    "description": "Quantum Edge LLC 持有 EUHi011 254015"
+  },
+  {
+    "id": 141,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 1,
+    "type": "Portfolio",
+    "weight": 0.7,
+    "description": "Quantum Edge LLC 持有 USEn002 257093"
+  },
+  {
+    "id": 142,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 4,
+    "type": "Portfolio",
+    "weight": 0.16,
+    "description": "Quantum Edge LLC 持有 CNAg005 59515"
+  },
+  {
+    "id": 143,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 5,
+    "type": "Portfolio",
+    "weight": 0.34,
+    "description": "Quantum Edge LLC 持有 GBAg006 123892"
+  },
+  {
+    "id": 144,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 17,
+    "type": "Portfolio",
+    "weight": 0.73,
+    "description": "Quantum Edge LLC 持有 USIn018 269159"
+  },
+  {
+    "id": 145,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 18,
+    "type": "Portfolio",
+    "weight": 0.73,
+    "description": "Quantum Edge LLC 持有 USAg019 270288"
+  },
+  {
+    "id": 146,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Portfolio",
+    "weight": 0.17,
+    "description": "Quantum Edge LLC 持有 USIn004 60979"
+  },
+  {
+    "id": 147,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 14,
+    "type": "Portfolio",
+    "weight": 0.34,
+    "description": "Quantum Edge LLC 持有 JPEn015 126624"
+  },
+  {
+    "id": 148,
+    "sourceType": "Investor",
+    "sourceId": 5,
+    "targetType": "Company",
+    "targetId": 9,
+    "type": "Portfolio",
+    "weight": 0.13,
+    "description": "Quantum Edge LLC 持有 EUHi010 47943"
+  },
+  {
+    "id": 149,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 16,
+    "type": "Portfolio",
+    "weight": 0.73,
+    "description": "Pacifica Asset 持有 JPIn017 232446"
+  },
+  {
+    "id": 150,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Portfolio",
+    "weight": 0.3,
+    "description": "Pacifica Asset 持有 USIn004 94594"
+  },
+  {
+    "id": 151,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 14,
+    "type": "Portfolio",
+    "weight": 0.36,
+    "description": "Pacifica Asset 持有 JPEn015 114060"
+  },
+  {
+    "id": 152,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 18,
+    "type": "Portfolio",
+    "weight": 0.5,
+    "description": "Pacifica Asset 持有 USAg019 160372"
+  },
+  {
+    "id": 153,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 12,
+    "type": "Portfolio",
+    "weight": 0.19,
+    "description": "Pacifica Asset 持有 EUCo013 59167"
+  },
+  {
+    "id": 154,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 9,
+    "type": "Portfolio",
+    "weight": 0.73,
+    "description": "Pacifica Asset 持有 EUHi010 232322"
+  },
+  {
+    "id": 155,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 6,
+    "type": "Portfolio",
+    "weight": 0.28,
+    "description": "Pacifica Asset 持有 CNIn007 88748"
+  },
+  {
+    "id": 156,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 11,
+    "type": "Portfolio",
+    "weight": 0.35,
+    "description": "Pacifica Asset 持有 GBHi012 111278"
+  },
+  {
+    "id": 157,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 13,
+    "type": "Portfolio",
+    "weight": 0.15,
+    "description": "Pacifica Asset 持有 CNCo014 48633"
+  },
+  {
+    "id": 158,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 10,
+    "type": "Portfolio",
+    "weight": 0.24,
+    "description": "Pacifica Asset 持有 EUHi011 75570"
+  },
+  {
+    "id": 159,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 2,
+    "type": "Portfolio",
+    "weight": 0.42,
+    "description": "Pacifica Asset 持有 USIn003 134205"
+  },
+  {
+    "id": 160,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 8,
+    "type": "Portfolio",
+    "weight": 0.32,
+    "description": "Pacifica Asset 持有 GBIn009 102225"
+  },
+  {
+    "id": 161,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 19,
+    "type": "Portfolio",
+    "weight": 0.5,
+    "description": "Pacifica Asset 持有 GBAg020 157856"
+  },
+  {
+    "id": 162,
+    "sourceType": "Investor",
+    "sourceId": 6,
+    "targetType": "Company",
+    "targetId": 17,
+    "type": "Portfolio",
+    "weight": 0.24,
+    "description": "Pacifica Asset 持有 USIn018 75993"
+  },
+  {
+    "id": 163,
+    "sourceType": "Investor",
+    "sourceId": 7,
+    "targetType": "Company",
+    "targetId": 2,
+    "type": "Portfolio",
+    "weight": 0.15,
+    "description": "Meridian Partners 持有 USIn003 37833"
+  },
+  {
+    "id": 164,
+    "sourceType": "Investor",
+    "sourceId": 7,
+    "targetType": "Company",
+    "targetId": 15,
+    "type": "Portfolio",
+    "weight": 0.28,
+    "description": "Meridian Partners 持有 USEn016 69553"
+  },
+  {
+    "id": 165,
+    "sourceType": "Investor",
+    "sourceId": 7,
+    "targetType": "Company",
+    "targetId": 8,
+    "type": "Portfolio",
+    "weight": 0.5,
+    "description": "Meridian Partners 持有 GBIn009 125705"
+  },
+  {
+    "id": 166,
+    "sourceType": "Investor",
+    "sourceId": 7,
+    "targetType": "Company",
+    "targetId": 19,
+    "type": "Portfolio",
+    "weight": 0.59,
+    "description": "Meridian Partners 持有 GBAg020 148466"
+  },
+  {
+    "id": 167,
+    "sourceType": "Investor",
+    "sourceId": 7,
+    "targetType": "Company",
+    "targetId": 14,
+    "type": "Portfolio",
+    "weight": 0.22,
+    "description": "Meridian Partners 持有 JPEn015 56809"
+  },
+  {
+    "id": 168,
+    "sourceType": "Investor",
+    "sourceId": 7,
+    "targetType": "Company",
+    "targetId": 12,
+    "type": "Portfolio",
+    "weight": 0.17,
+    "description": "Meridian Partners 持有 EUCo013 43820"
+  },
+  {
+    "id": 169,
+    "sourceType": "Investor",
+    "sourceId": 7,
+    "targetType": "Company",
+    "targetId": 16,
+    "type": "Portfolio",
+    "weight": 0.1,
+    "description": "Meridian Partners 持有 JPIn017 25474"
+  },
+  {
+    "id": 170,
+    "sourceType": "Investor",
+    "sourceId": 7,
+    "targetType": "Company",
+    "targetId": 1,
+    "type": "Portfolio",
+    "weight": 0.71,
+    "description": "Meridian Partners 持有 USEn002 178730"
+  },
+  {
+    "id": 171,
+    "sourceType": "Investor",
+    "sourceId": 7,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Portfolio",
+    "weight": 0.28,
+    "description": "Meridian Partners 持有 USIn004 71725"
+  },
+  {
+    "id": 172,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 10,
+    "type": "Portfolio",
+    "weight": 0.14,
+    "description": "Summit Sovereign 持有 EUHi011 3205"
+  },
+  {
+    "id": 173,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 8,
+    "type": "Portfolio",
+    "weight": 0.28,
+    "description": "Summit Sovereign 持有 GBIn009 6455"
+  },
+  {
+    "id": 174,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 0,
+    "type": "Portfolio",
+    "weight": 0.28,
+    "description": "Summit Sovereign 持有 EUEn001 6271"
+  },
+  {
+    "id": 175,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 11,
+    "type": "Portfolio",
+    "weight": 0.32,
+    "description": "Summit Sovereign 持有 GBHi012 7244"
+  },
+  {
+    "id": 176,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 13,
+    "type": "Portfolio",
+    "weight": 0.51,
+    "description": "Summit Sovereign 持有 CNCo014 11636"
+  },
+  {
+    "id": 177,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Portfolio",
+    "weight": 0.19,
+    "description": "Summit Sovereign 持有 USIn004 4284"
+  },
+  {
+    "id": 178,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 6,
+    "type": "Portfolio",
+    "weight": 0.11,
+    "description": "Summit Sovereign 持有 CNIn007 2436"
+  },
+  {
+    "id": 179,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 18,
+    "type": "Portfolio",
+    "weight": 0.72,
+    "description": "Summit Sovereign 持有 USAg019 16247"
+  },
+  {
+    "id": 180,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 16,
+    "type": "Portfolio",
+    "weight": 0.43,
+    "description": "Summit Sovereign 持有 JPIn017 9746"
+  },
+  {
+    "id": 181,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 14,
+    "type": "Portfolio",
+    "weight": 0.16,
+    "description": "Summit Sovereign 持有 JPEn015 3588"
+  },
+  {
+    "id": 182,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 15,
+    "type": "Portfolio",
+    "weight": 0.37,
+    "description": "Summit Sovereign 持有 USEn016 8492"
+  },
+  {
+    "id": 183,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 2,
+    "type": "Portfolio",
+    "weight": 0.37,
+    "description": "Summit Sovereign 持有 USIn003 8296"
+  },
+  {
+    "id": 184,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 9,
+    "type": "Portfolio",
+    "weight": 0.74,
+    "description": "Summit Sovereign 持有 EUHi010 16838"
+  },
+  {
+    "id": 185,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 1,
+    "type": "Portfolio",
+    "weight": 0.12,
+    "description": "Summit Sovereign 持有 USEn002 2651"
+  },
+  {
+    "id": 186,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 19,
+    "type": "Portfolio",
+    "weight": 0.71,
+    "description": "Summit Sovereign 持有 GBAg020 15974"
+  },
+  {
+    "id": 187,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 7,
+    "type": "Portfolio",
+    "weight": 0.22,
+    "description": "Summit Sovereign 持有 GBIn008 4896"
+  },
+  {
+    "id": 188,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 5,
+    "type": "Portfolio",
+    "weight": 0.19,
+    "description": "Summit Sovereign 持有 GBAg006 4404"
+  },
+  {
+    "id": 189,
+    "sourceType": "Investor",
+    "sourceId": 8,
+    "targetType": "Company",
+    "targetId": 12,
+    "type": "Portfolio",
+    "weight": 0.18,
+    "description": "Summit Sovereign 持有 EUCo013 4012"
+  },
+  {
+    "id": 190,
+    "sourceType": "Investor",
+    "sourceId": 9,
+    "targetType": "Company",
+    "targetId": 19,
+    "type": "Portfolio",
+    "weight": 0.12,
+    "description": "Helix Capital 持有 GBAg020 3183"
+  },
+  {
+    "id": 191,
+    "sourceType": "Investor",
+    "sourceId": 9,
+    "targetType": "Company",
+    "targetId": 12,
+    "type": "Portfolio",
+    "weight": 0.23,
+    "description": "Helix Capital 持有 EUCo013 6044"
+  },
+  {
+    "id": 192,
+    "sourceType": "Investor",
+    "sourceId": 9,
+    "targetType": "Company",
+    "targetId": 8,
+    "type": "Portfolio",
+    "weight": 0.38,
+    "description": "Helix Capital 持有 GBIn009 9741"
+  },
+  {
+    "id": 193,
+    "sourceType": "Investor",
+    "sourceId": 9,
+    "targetType": "Company",
+    "targetId": 18,
+    "type": "Portfolio",
+    "weight": 0.33,
+    "description": "Helix Capital 持有 USAg019 8518"
+  },
+  {
+    "id": 194,
+    "sourceType": "Investor",
+    "sourceId": 9,
+    "targetType": "Company",
+    "targetId": 11,
+    "type": "Portfolio",
+    "weight": 0.48,
+    "description": "Helix Capital 持有 GBHi012 12265"
+  },
+  {
+    "id": 195,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 13,
+    "type": "Portfolio",
+    "weight": 0.32,
+    "description": "Retail Crowd Alpha 持有 CNCo014 1554"
+  },
+  {
+    "id": 196,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 16,
+    "type": "Portfolio",
+    "weight": 0.26,
+    "description": "Retail Crowd Alpha 持有 JPIn017 1248"
+  },
+  {
+    "id": 197,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 4,
+    "type": "Portfolio",
+    "weight": 0.71,
+    "description": "Retail Crowd Alpha 持有 CNAg005 3452"
+  },
+  {
+    "id": 198,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 19,
+    "type": "Portfolio",
+    "weight": 0.42,
+    "description": "Retail Crowd Alpha 持有 GBAg020 2037"
+  },
+  {
+    "id": 199,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 18,
+    "type": "Portfolio",
+    "weight": 0.24,
+    "description": "Retail Crowd Alpha 持有 USAg019 1161"
+  },
+  {
+    "id": 200,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 11,
+    "type": "Portfolio",
+    "weight": 0.62,
+    "description": "Retail Crowd Alpha 持有 GBHi012 3055"
+  },
+  {
+    "id": 201,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 17,
+    "type": "Portfolio",
+    "weight": 0.33,
+    "description": "Retail Crowd Alpha 持有 USIn018 1633"
+  },
+  {
+    "id": 202,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 0,
+    "type": "Portfolio",
+    "weight": 0.24,
+    "description": "Retail Crowd Alpha 持有 EUEn001 1163"
+  },
+  {
+    "id": 203,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 1,
+    "type": "Portfolio",
+    "weight": 0.48,
+    "description": "Retail Crowd Alpha 持有 USEn002 2345"
+  },
+  {
+    "id": 204,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 14,
+    "type": "Portfolio",
+    "weight": 0.15,
+    "description": "Retail Crowd Alpha 持有 JPEn015 750"
+  },
+  {
+    "id": 205,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Portfolio",
+    "weight": 0.62,
+    "description": "Retail Crowd Alpha 持有 USIn004 3014"
+  },
+  {
+    "id": 206,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 7,
+    "type": "Portfolio",
+    "weight": 0.31,
+    "description": "Retail Crowd Alpha 持有 GBIn008 1529"
+  },
+  {
+    "id": 207,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 2,
+    "type": "Portfolio",
+    "weight": 0.47,
+    "description": "Retail Crowd Alpha 持有 USIn003 2294"
+  },
+  {
+    "id": 208,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 6,
+    "type": "Portfolio",
+    "weight": 0.33,
+    "description": "Retail Crowd Alpha 持有 CNIn007 1602"
+  },
+  {
+    "id": 209,
+    "sourceType": "Investor",
+    "sourceId": 10,
+    "targetType": "Company",
+    "targetId": 12,
+    "type": "Portfolio",
+    "weight": 0.42,
+    "description": "Retail Crowd Alpha 持有 EUCo013 2071"
+  },
+  {
+    "id": 210,
+    "sourceType": "Investor",
+    "sourceId": 11,
+    "targetType": "Company",
+    "targetId": 1,
+    "type": "Portfolio",
+    "weight": 0.38,
+    "description": "Retail Crowd Beta 持有 USEn002 9548"
+  },
+  {
+    "id": 211,
+    "sourceType": "Investor",
+    "sourceId": 11,
+    "targetType": "Company",
+    "targetId": 15,
+    "type": "Portfolio",
+    "weight": 0.66,
+    "description": "Retail Crowd Beta 持有 USEn016 16538"
+  },
+  {
+    "id": 212,
+    "sourceType": "Investor",
+    "sourceId": 11,
+    "targetType": "Company",
+    "targetId": 10,
+    "type": "Portfolio",
+    "weight": 0.61,
+    "description": "Retail Crowd Beta 持有 EUHi011 15423"
+  },
+  {
+    "id": 213,
+    "sourceType": "Investor",
+    "sourceId": 11,
+    "targetType": "Company",
+    "targetId": 9,
+    "type": "Portfolio",
+    "weight": 0.28,
+    "description": "Retail Crowd Beta 持有 EUHi010 7029"
+  },
+  {
+    "id": 214,
+    "sourceType": "Investor",
+    "sourceId": 11,
+    "targetType": "Company",
+    "targetId": 16,
+    "type": "Portfolio",
+    "weight": 0.64,
+    "description": "Retail Crowd Beta 持有 JPIn017 16018"
+  },
+  {
+    "id": 215,
+    "sourceType": "Investor",
+    "sourceId": 11,
+    "targetType": "Company",
+    "targetId": 12,
+    "type": "Portfolio",
+    "weight": 0.25,
+    "description": "Retail Crowd Beta 持有 EUCo013 6199"
+  },
+  {
+    "id": 216,
+    "sourceType": "Investor",
+    "sourceId": 11,
+    "targetType": "Company",
+    "targetId": 3,
+    "type": "Portfolio",
+    "weight": 0.48,
+    "description": "Retail Crowd Beta 持有 USIn004 12135"
+  },
+  {
+    "id": 217,
+    "sourceType": "Investor",
+    "sourceId": 11,
+    "targetType": "Company",
+    "targetId": 5,
+    "type": "Portfolio",
+    "weight": 0.65,
+    "description": "Retail Crowd Beta 持有 GBAg006 16349"
+  }
+]

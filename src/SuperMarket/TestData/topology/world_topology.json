@@ -1,0 +1,757 @@
+﻿{
+  "countries": [
+    {
+      "id": 0,
+      "name": "United States",
+      "currency": "USD",
+      "exchangeRate": 1.0278088747548282,
+      "interestRate": 3.8131429580515683,
+      "gdpGrowth": 0.8094015799846571,
+      "cpi": 2.3316657721151333,
+      "pmi": 50.53052621804197,
+      "politicalStability": 0.85,
+      "industryChainIds": [
+        0,
+        1
+      ],
+      "companyIds": [
+        1,
+        2,
+        3,
+        15,
+        17,
+        18
+      ]
+    },
+    {
+      "id": 1,
+      "name": "China",
+      "currency": "CNY",
+      "exchangeRate": 0.138596366913004,
+      "interestRate": 3.588168946258114,
+      "gdpGrowth": 1.2223555931771668,
+      "cpi": 2.4894384332171655,
+      "pmi": 52.51210889882894,
+      "politicalStability": 0.8,
+      "industryChainIds": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "companyIds": [
+        4,
+        6,
+        13
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "currency": "JPY",
+      "exchangeRate": 0.0065958299393334046,
+      "interestRate": 2.7058449401229514,
+      "gdpGrowth": 1.1632216388007222,
+      "cpi": 1.6154082783564983,
+      "pmi": 51.715569785035775,
+      "politicalStability": 0.75,
+      "industryChainIds": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "companyIds": [
+        14,
+        16
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Germany",
+      "currency": "EUR",
+      "exchangeRate": 1.1037249216197071,
+      "interestRate": 4.41830992896999,
+      "gdpGrowth": 1.0126524269914263,
+      "cpi": 3.232732871448181,
+      "pmi": 52.71487437448295,
+      "politicalStability": 0.82,
+      "industryChainIds": [
+        12,
+        13
+      ],
+      "companyIds": [
+        0,
+        9,
+        10,
+        12
+      ]
+    },
+    {
+      "id": 4,
+      "name": "United Kingdom",
+      "currency": "GBP",
+      "exchangeRate": 1.2846481662121887,
+      "interestRate": 3.8395629515570113,
+      "gdpGrowth": 1.0701473643321338,
+      "cpi": 2.030168197524089,
+      "pmi": 52.49317990789498,
+      "politicalStability": 0.78,
+      "industryChainIds": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "companyIds": [
+        5,
+        7,
+        8,
+        11,
+        19
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": 0,
+      "ticker": "EUEn001",
+      "name": "Germany EnergyExtraction 001",
+      "countryId": 3,
+      "industryChainId": 12,
+      "category": "Agricultural",
+      "layer": "Midstream",
+      "competitiveness": 0.5268252067392809,
+      "rdLevel": 0.19427051150438868
+    },
+    {
+      "id": 1,
+      "ticker": "USEn002",
+      "name": "United States EnergyRefining 002",
+      "countryId": 0,
+      "industryChainId": 0,
+      "category": "IndustrialRawMaterial",
+      "layer": "Upstream",
+      "competitiveness": 0.7029221665127772,
+      "rdLevel": 0.16418722258610058
+    },
+    {
+      "id": 2,
+      "ticker": "USIn003",
+      "name": "United States Mining 003",
+      "countryId": 0,
+      "industryChainId": 0,
+      "category": "IndustrialRawMaterial",
+      "layer": "Upstream",
+      "competitiveness": 0.6039644313528969,
+      "rdLevel": 0.14744772757284702
+    },
+    {
+      "id": 3,
+      "ticker": "USIn004",
+      "name": "United States SteelMaking 004",
+      "countryId": 0,
+      "industryChainId": 0,
+      "category": "IndustrialRawMaterial",
+      "layer": "Upstream",
+      "competitiveness": 0.5944332991235113,
+      "rdLevel": 0.19508504520407183
+    },
+    {
+      "id": 4,
+      "ticker": "CNAg005",
+      "name": "China Farming 005",
+      "countryId": 1,
+      "industryChainId": 5,
+      "category": "Energy",
+      "layer": "Downstream",
+      "competitiveness": 0.7049768604361344,
+      "rdLevel": 0.10213637317164632
+    },
+    {
+      "id": 5,
+      "ticker": "GBAg006",
+      "name": "United Kingdom FoodProcessing 006",
+      "countryId": 4,
+      "industryChainId": 16,
+      "category": "ConsumerGoods",
+      "layer": "Downstream",
+      "competitiveness": 0.7207384750343573,
+      "rdLevel": 0.14156142393665455
+    },
+    {
+      "id": 6,
+      "ticker": "CNIn007",
+      "name": "China SemiconductorDesign 007",
+      "countryId": 1,
+      "industryChainId": 2,
+      "category": "InformationTechnology",
+      "layer": "Downstream",
+      "competitiveness": 0.5570909573962404,
+      "rdLevel": 0.06757789003549977
+    },
+    {
+      "id": 7,
+      "ticker": "GBIn008",
+      "name": "United Kingdom ChipManufacturing 008",
+      "countryId": 4,
+      "industryChainId": 17,
+      "category": "InformationTechnology",
+      "layer": "Downstream",
+      "competitiveness": 0.5588060238672449,
+      "rdLevel": 0.057368459649089945
+    },
+    {
+      "id": 8,
+      "ticker": "GBIn009",
+      "name": "United Kingdom ConsumerElectronics 009",
+      "countryId": 4,
+      "industryChainId": 17,
+      "category": "InformationTechnology",
+      "layer": "Downstream",
+      "competitiveness": 0.8883144750205403,
+      "rdLevel": 0.17153846515414234
+    },
+    {
+      "id": 9,
+      "ticker": "EUHi010",
+      "name": "Germany BiotechRnD 010",
+      "countryId": 3,
+      "industryChainId": 12,
+      "category": "Agricultural",
+      "layer": "Midstream",
+      "competitiveness": 0.4653810329574072,
+      "rdLevel": 0.0927570030292296
+    },
+    {
+      "id": 10,
+      "ticker": "EUHi011",
+      "name": "Germany MedicalDevices 011",
+      "countryId": 3,
+      "industryChainId": 12,
+      "category": "Agricultural",
+      "layer": "Midstream",
+      "competitiveness": 0.5981123620169762,
+      "rdLevel": 0.15540796625679731
+    },
+    {
+      "id": 11,
+      "ticker": "GBHi012",
+      "name": "United Kingdom HealthcareServices 012",
+      "countryId": 4,
+      "industryChainId": 15,
+      "category": "HighTech",
+      "layer": "Upstream",
+      "competitiveness": 0.804123602762876,
+      "rdLevel": 0.08728785795964666
+    },
+    {
+      "id": 12,
+      "ticker": "EUCo013",
+      "name": "Germany ApparelManufacturing 013",
+      "countryId": 3,
+      "industryChainId": 13,
+      "category": "InformationTechnology",
+      "layer": "Midstream",
+      "competitiveness": 0.7602658973356085,
+      "rdLevel": 0.13023574747156152
+    },
+    {
+      "id": 13,
+      "ticker": "CNCo014",
+      "name": "China BrandRetail 014",
+      "countryId": 1,
+      "industryChainId": 4,
+      "category": "ConsumerGoods",
+      "layer": "Downstream",
+      "competitiveness": 0.5066444722966499,
+      "rdLevel": 0.22257036705155409
+    },
+    {
+      "id": 14,
+      "ticker": "JPEn015",
+      "name": "Japan EnergyExtraction 015",
+      "countryId": 2,
+      "industryChainId": 7,
+      "category": "Energy",
+      "layer": "Upstream",
+      "competitiveness": 0.35931391392802536,
+      "rdLevel": 0.10888092501968188
+    },
+    {
+      "id": 15,
+      "ticker": "USEn016",
+      "name": "United States EnergyRefining 016",
+      "countryId": 0,
+      "industryChainId": 1,
+      "category": "InformationTechnology",
+      "layer": "Midstream",
+      "competitiveness": 0.6978884433386329,
+      "rdLevel": 0.060657221270099856
+    },
+    {
+      "id": 16,
+      "ticker": "JPIn017",
+      "name": "Japan Mining 017",
+      "countryId": 2,
+      "industryChainId": 11,
+      "category": "InformationTechnology",
+      "layer": "Upstream",
+      "competitiveness": 0.8387904423935295,
+      "rdLevel": 0.20361292835027583
+    },
+    {
+      "id": 17,
+      "ticker": "USIn018",
+      "name": "United States SteelMaking 018",
+      "countryId": 0,
+      "industryChainId": 0,
+      "category": "IndustrialRawMaterial",
+      "layer": "Upstream",
+      "competitiveness": 0.8392830320351214,
+      "rdLevel": 0.21340364253306932
+    },
+    {
+      "id": 18,
+      "ticker": "USAg019",
+      "name": "United States Farming 019",
+      "countryId": 0,
+      "industryChainId": 0,
+      "category": "IndustrialRawMaterial",
+      "layer": "Upstream",
+      "competitiveness": 0.4256869384672898,
+      "rdLevel": 0.05683477418815474
+    },
+    {
+      "id": 19,
+      "ticker": "GBAg020",
+      "name": "United Kingdom FoodProcessing 020",
+      "countryId": 4,
+      "industryChainId": 17,
+      "category": "InformationTechnology",
+      "layer": "Downstream",
+      "competitiveness": 0.3595675058940274,
+      "rdLevel": 0.20121949741207973
+    }
+  ],
+  "stocks": [
+    {
+      "id": 0,
+      "ticker": "EUEn001",
+      "companyId": 0,
+      "countryId": 3,
+      "beta": 1.35,
+      "volatility": 0.9080179163798735
+    },
+    {
+      "id": 1,
+      "ticker": "USEn002",
+      "companyId": 1,
+      "countryId": 0,
+      "beta": 0.93,
+      "volatility": 0.7042681622366456
+    },
+    {
+      "id": 2,
+      "ticker": "USIn003",
+      "companyId": 2,
+      "countryId": 0,
+      "beta": 0.74,
+      "volatility": 0.7109171091996753
+    },
+    {
+      "id": 3,
+      "ticker": "USIn004",
+      "companyId": 3,
+      "countryId": 0,
+      "beta": 1.25,
+      "volatility": 0.7808389984007298
+    },
+    {
+      "id": 4,
+      "ticker": "CNAg005",
+      "companyId": 4,
+      "countryId": 1,
+      "beta": 1.23,
+      "volatility": 0.8512995332343705
+    },
+    {
+      "id": 5,
+      "ticker": "GBAg006",
+      "companyId": 5,
+      "countryId": 4,
+      "beta": 1.27,
+      "volatility": 0.6880074808373888
+    },
+    {
+      "id": 6,
+      "ticker": "CNIn007",
+      "companyId": 6,
+      "countryId": 1,
+      "beta": 0.67,
+      "volatility": 0.6165558280537408
+    },
+    {
+      "id": 7,
+      "ticker": "GBIn008",
+      "companyId": 7,
+      "countryId": 4,
+      "beta": 0.98,
+      "volatility": 0.5228680184886828
+    },
+    {
+      "id": 8,
+      "ticker": "GBIn009",
+      "companyId": 8,
+      "countryId": 4,
+      "beta": 1.02,
+      "volatility": 0.6617062309563814
+    },
+    {
+      "id": 9,
+      "ticker": "EUHi010",
+      "companyId": 9,
+      "countryId": 3,
+      "beta": 0.83,
+      "volatility": 0.7495224294193005
+    },
+    {
+      "id": 10,
+      "ticker": "EUHi011",
+      "companyId": 10,
+      "countryId": 3,
+      "beta": 0.41,
+      "volatility": 0.6248019356865278
+    },
+    {
+      "id": 11,
+      "ticker": "GBHi012",
+      "companyId": 11,
+      "countryId": 4,
+      "beta": 1.18,
+      "volatility": 0.6220737013443656
+    },
+    {
+      "id": 12,
+      "ticker": "EUCo013",
+      "companyId": 12,
+      "countryId": 3,
+      "beta": 1.16,
+      "volatility": 0.7498628062137755
+    },
+    {
+      "id": 13,
+      "ticker": "CNCo014",
+      "companyId": 13,
+      "countryId": 1,
+      "beta": 0.65,
+      "volatility": 0.4874627311928217
+    },
+    {
+      "id": 14,
+      "ticker": "JPEn015",
+      "companyId": 14,
+      "countryId": 2,
+      "beta": 1.09,
+      "volatility": 0.39017079011500594
+    },
+    {
+      "id": 15,
+      "ticker": "USEn016",
+      "companyId": 15,
+      "countryId": 0,
+      "beta": 0.79,
+      "volatility": 1.0382877491569538
+    },
+    {
+      "id": 16,
+      "ticker": "JPIn017",
+      "companyId": 16,
+      "countryId": 2,
+      "beta": 1.14,
+      "volatility": 0.5932874689334502
+    },
+    {
+      "id": 17,
+      "ticker": "USIn018",
+      "companyId": 17,
+      "countryId": 0,
+      "beta": 1.01,
+      "volatility": 0.9324261330568673
+    },
+    {
+      "id": 18,
+      "ticker": "USAg019",
+      "companyId": 18,
+      "countryId": 0,
+      "beta": 1.05,
+      "volatility": 0.8442031038978739
+    },
+    {
+      "id": 19,
+      "ticker": "GBAg020",
+      "companyId": 19,
+      "countryId": 4,
+      "beta": 1.06,
+      "volatility": 0.49713214566169805
+    }
+  ],
+  "investors": [
+    {
+      "id": 0,
+      "name": "BlackStone Capital",
+      "type": "Whale",
+      "capitalSize": 40971722.02354843,
+      "countryId": 3,
+      "holdings": {
+        "3": 3255285.2604768937,
+        "7": 1510703.1804969544,
+        "18": 3804586.3481116286,
+        "13": 876094.5863785682,
+        "16": 2837689.673296363,
+        "4": 2061440.4965655708,
+        "11": 1587259.3052964688,
+        "0": 2877812.1657862077,
+        "17": 2663539.025825863,
+        "9": 1235815.8968328005,
+        "19": 1956777.78289436,
+        "10": 6144628.221380013,
+        "15": 2863898.826381078,
+        "6": 4646092.539500771,
+        "8": 6084454.80053861,
+        "2": 1989434.8876539404,
+        "5": 4207050.16677285,
+        "12": 3433757.2301881444,
+        "1": 5610058.324936314,
+        "14": 3914046.822670717
+      }
+    },
+    {
+      "id": 1,
+      "name": "Vanguard Trust",
+      "type": "Whale",
+      "capitalSize": 15052508.134419335,
+      "countryId": 4,
+      "holdings": {
+        "10": 2245779.9943366935,
+        "7": 673770.810946161,
+        "6": 473396.8575536016,
+        "4": 599510.7058023525,
+        "15": 1659052.3874413075,
+        "9": 1784152.510063858,
+        "16": 1416056.954506766,
+        "18": 1442286.6602963451
+      }
+    },
+    {
+      "id": 2,
+      "name": "Pioneer Fund",
+      "type": "Whale",
+      "capitalSize": 31803836.639413536,
+      "countryId": 3,
+      "holdings": {
+        "8": 2526925.636273145,
+        "10": 1243861.0020893766,
+        "3": 939315.4489739486,
+        "9": 2918608.009438703,
+        "19": 1274845.5760695757
+      }
+    },
+    {
+      "id": 3,
+      "name": "Apex Whale",
+      "type": "Whale",
+      "capitalSize": 49581805.141447954,
+      "countryId": 4,
+      "holdings": {
+        "6": 5409795.240201138,
+        "13": 1037272.486256032,
+        "12": 6017124.050423507,
+        "3": 6109997.447885836,
+        "15": 6196782.184943014,
+        "1": 3092751.540204475,
+        "16": 7431198.603958594,
+        "5": 7099293.527278906,
+        "14": 4751289.714985591,
+        "9": 1802970.3565695889,
+        "8": 6823643.259843106,
+        "10": 1861891.751934863,
+        "7": 4685895.019227848,
+        "2": 1997204.8278583938,
+        "19": 1228790.8889823197,
+        "4": 4085843.465500359,
+        "17": 1635969.7410472822
+      }
+    },
+    {
+      "id": 4,
+      "name": "GoldenBridge Holdings",
+      "type": "Institutional",
+      "capitalSize": 2676054.4859227045,
+      "countryId": 0,
+      "holdings": {
+        "11": 139237.01215127343,
+        "14": 123466.31280838478,
+        "2": 290182.6486734181,
+        "17": 145706.80295685717,
+        "7": 337944.0663385664,
+        "3": 253537.66565720277,
+        "1": 204738.23024153375,
+        "12": 392157.54288179224,
+        "9": 278496.3698329641,
+        "18": 181315.2811176438
+      }
+    },
+    {
+      "id": 5,
+      "name": "Quantum Edge LLC",
+      "type": "Institutional",
+      "capitalSize": 1845585.5887595497,
+      "countryId": 3,
+      "holdings": {
+        "0": 185048.78155280667,
+        "7": 201731.42319531154,
+        "11": 94723.72963601259,
+        "13": 198270.4505664778,
+        "8": 241706.48117036172,
+        "16": 73136.91459219588,
+        "6": 105161.75263309346,
+        "15": 54520.426941836246,
+        "10": 254015.49463767846,
+        "1": 257092.64745262955,
+        "4": 59514.81794611002,
+        "5": 123891.5604624776,
+        "17": 269158.8661206111,
+        "18": 270287.7813842928,
+        "3": 60979.340409165285,
+        "14": 126624.42543441923,
+        "9": 47942.78874375938
+      }
+    },
+    {
+      "id": 6,
+      "name": "Pacifica Asset",
+      "type": "Institutional",
+      "capitalSize": 1591533.286772451,
+      "countryId": 1,
+      "holdings": {
+        "16": 232445.7515744243,
+        "3": 94593.52615059556,
+        "14": 114059.89899462451,
+        "18": 160372.28135709825,
+        "12": 59166.874314642664,
+        "9": 232321.97695107514,
+        "6": 88748.03168229375,
+        "11": 111277.92458160309,
+        "13": 48632.70084209147,
+        "10": 75569.68827635342,
+        "2": 134205.00507177864,
+        "8": 102225.24433353492,
+        "19": 157856.21376843346,
+        "17": 75993.18884480675
+      }
+    },
+    {
+      "id": 7,
+      "name": "Meridian Partners",
+      "type": "Institutional",
+      "capitalSize": 1264235.9548547473,
+      "countryId": 0,
+      "holdings": {
+        "2": 37832.958620391844,
+        "15": 69553.35775332863,
+        "8": 125705.42852873247,
+        "19": 148466.1797942543,
+        "14": 56808.76455456901,
+        "12": 43820.0374568902,
+        "16": 25473.821313042998,
+        "1": 178730.2388733966,
+        "3": 71724.75633867455
+      }
+    },
+    {
+      "id": 8,
+      "name": "Summit Sovereign",
+      "type": "Retail",
+      "capitalSize": 113268.45911949336,
+      "countryId": 4,
+      "holdings": {
+        "10": 3204.9584246784966,
+        "8": 6455.076670701094,
+        "0": 6270.82194303357,
+        "11": 7243.51487007948,
+        "13": 11635.502578135016,
+        "3": 4284.137213429536,
+        "6": 2436.162341968567,
+        "18": 16247.192474803285,
+        "16": 9745.571989354241,
+        "14": 3588.016164259545,
+        "15": 8491.665415015284,
+        "2": 8296.130498622733,
+        "9": 16838.213232739625,
+        "1": 2651.0559005529954,
+        "19": 15974.108213404454,
+        "7": 4896.380323504839,
+        "5": 4403.871992796752,
+        "12": 4011.7333401435712
+      }
+    },
+    {
+      "id": 9,
+      "name": "Helix Capital",
+      "type": "Retail",
+      "capitalSize": 128623.73389705259,
+      "countryId": 1,
+      "holdings": {
+        "19": 3182.6706469521528,
+        "12": 6043.740511607211,
+        "8": 9741.405071906274,
+        "18": 8518.228816425906,
+        "11": 12264.532001402533
+      }
+    },
+    {
+      "id": 10,
+      "name": "Retail Crowd Alpha",
+      "type": "Retail",
+      "capitalSize": 24449.737171851906,
+      "countryId": 1,
+      "holdings": {
+        "13": 1553.9097118761622,
+        "16": 1247.6921908788954,
+        "4": 3452.467073101229,
+        "19": 2037.2063609974211,
+        "18": 1161.1738460219763,
+        "11": 3055.401266087614,
+        "17": 1633.0254074619365,
+        "0": 1162.653052381076,
+        "1": 2344.6112933478867,
+        "14": 749.9683614223575,
+        "3": 3014.082667282577,
+        "7": 1529.4452477896605,
+        "2": 2293.8320799096405,
+        "6": 1601.9046464873625,
+        "12": 2070.9578519786314
+      }
+    },
+    {
+      "id": 11,
+      "name": "Retail Crowd Beta",
+      "type": "Retail",
+      "capitalSize": 125593.3199988647,
+      "countryId": 1,
+      "holdings": {
+        "1": 9548.330532084448,
+        "15": 16538.42258872707,
+        "10": 15423.11089133786,
+        "9": 7029.185958703942,
+        "16": 16018.29903765914,
+        "12": 6199.294302889154,
+        "3": 12134.81420582766,
+        "5": 16349.245634729754
+      }
+    }
+  ]
+}
