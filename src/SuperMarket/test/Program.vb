@@ -1,6 +1,7 @@
 Option Strict On
 Option Explicit On
 
+Imports SuperMarket
 Imports SuperMarket.Core
 
 Namespace SuperMarket

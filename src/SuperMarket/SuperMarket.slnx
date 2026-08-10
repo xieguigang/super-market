@@ -1,3 +1,12 @@
 <Solution>
-  <Project Path="SuperMarket.vbproj" />
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="SuperMarket.vbproj">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="test/test.vbproj" Id="cae2c2f2-f521-4599-95c4-b5b9e522245e">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
 </Solution>
