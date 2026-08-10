@@ -3,6 +3,7 @@ Option Explicit On
 
 Imports System.IO
 Imports System.Text
+Imports Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar
 Imports SuperMarket.Core
 Imports SuperMarket.Entities
 
@@ -24,7 +25,7 @@ Namespace SuperMarket.Output
         Private _eventLogBuffer As New List(Of Events.MarketEvent)()
 
         ' 写入频率：每 N 天刷盘一次
-        Private Const FlushInterval As Integer = 30
+        Private Const FlushInterval As Integer = 3000
         Private _dayCount As Integer = 0
 
         Public Sub New(config As SimulationConfig)
@@ -252,7 +253,7 @@ Namespace SuperMarket.Output
 
         ''' <summary>刷盘所有 CSV 缓冲。</summary>
         Public Sub FlushCsv()
-            For Each kv In _writers
+            For Each kv In Tqdm.Wrap(_writers)
                 kv.Value.Flush()
             Next
         End Sub
