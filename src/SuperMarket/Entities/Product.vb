@@ -1,7 +1,7 @@
 Option Strict On
 Option Explicit On
 
-Namespace SuperMarket.Entities
+Namespace Entities
 
     ''' <summary>
     ''' 产品：产业链中流转的标准化商品。全球供需决定其国际价格。

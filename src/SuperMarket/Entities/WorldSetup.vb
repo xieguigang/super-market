@@ -1,9 +1,9 @@
 Option Strict On
 Option Explicit On
 
-Imports SuperMarket.Core
+Imports Core
 
-Namespace SuperMarket.Entities
+Namespace Entities
 
     ''' <summary>
     ''' 世界设定生成器：根据配置生成国家、公司、产业链、产品、投资者及其关系网络。

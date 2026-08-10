@@ -1,7 +1,7 @@
 Option Strict On
 Option Explicit On
 
-Namespace SuperMarket.Core
+Namespace Core
 
     ''' <summary>
     ''' 模拟配置。描述模拟时间范围、规模、随机种子、事件频率与输出路径等。

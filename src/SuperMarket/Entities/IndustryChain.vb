@@ -1,7 +1,7 @@
 Option Strict On
 Option Explicit On
 
-Namespace SuperMarket.Entities
+Namespace Entities
 
     ''' <summary>
     ''' 产业链节点：表示某一国家某一产品类别的产业链环节（上游/中游/下游）。

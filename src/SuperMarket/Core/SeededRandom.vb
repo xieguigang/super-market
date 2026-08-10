@@ -3,7 +3,7 @@ Option Explicit On
 
 Imports System.Threading
 
-Namespace SuperMarket.Core
+Namespace Core
 
     ''' <summary>
     ''' 种子化随机数辅助类。封装 System.Random，提供高斯采样与多种辅助方法。

@@ -1,7 +1,7 @@
 Option Strict On
 Option Explicit On
 
-Namespace SuperMarket.Core
+Namespace Core
 
     ''' <summary>
     ''' 产品大类。决定产业链分类与关税类目。
